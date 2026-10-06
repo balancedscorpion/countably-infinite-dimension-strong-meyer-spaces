@@ -1,0 +1,130 @@
+# JSON syntax is valid YAML 1.2.
+{
+  "version": "v0.4",
+  "project": {
+    "name": "A strongly tempered Meyer space of countably infinite Hamel dimension",
+    "description": "There exists a locally finite carrier Λ in the real line whose whole complex strongly tempered Meyer space has Hamel dimension ℵ₀. Both a tempered distribution and its distributional Fourier transform have local atomic formulas on Λ, with coefficient families whose absolute values are summable after division by some polynomial weight (1 + |x|)^N. The same carrier supports the entire space; finite-dimensional exponent layers prove the rank upper bound and independent original parity modes prove the lower bound. The radius schedule is selected classically. This is an existence theorem for one carrier, not an effective construction or a classification of all carriers.",
+    "authors": [
+      "Jamie Martin"
+    ],
+    "responsible_maintainers": [
+      "Jamie Martin"
+    ],
+    "license": "MIT"
+  },
+  "classification": {
+    "arxiv": [
+      "math.CA",
+      "math.FA"
+    ],
+    "msc2020": [
+      "42A38",
+      "46F12",
+      "52C23"
+    ]
+  },
+  "sources": [
+    {
+      "title": "Whole strongly tempered Meyer space of Hamel dimension aleph0 (PR #653)",
+      "authors": [
+        "Jamie Martin"
+      ],
+      "type": "other",
+      "id": "https://github.com/ls558/MeyerGeneralProblem/pull/653",
+      "relationship": "formalizes",
+      "author_endorsement": "participated",
+      "note": "The selected formal implementation is pinned at 65fe4ece1e3d2e83a9ac757b615141d3c0a2718b. Both original weighted absolute-total-variation records are used. The PR is open and the source repository requires access; the complete recursive Lean proof closure is included here so no private dependency is needed."
+    },
+    {
+      "title": "Measures with locally finite support and spectrum",
+      "authors": [
+        "Yves Meyer"
+      ],
+      "type": "paper",
+      "id": "doi:10.1073/pnas.1600685113",
+      "relationship": "background",
+      "author_endorsement": "not-contacted",
+      "note": "Background for the locally finite support and spectrum problem; no priority or named dichotomy conjecture is attributed to this paper."
+    },
+    {
+      "title": "Measures with locally finite support and spectrum",
+      "authors": [
+        "Yves Meyer"
+      ],
+      "type": "paper",
+      "id": "doi:10.4171/RMI/962",
+      "relationship": "background",
+      "author_endorsement": "not-contacted",
+      "note": "Background for the locally finite support and spectrum problem; no priority or named dichotomy conjecture is attributed to this paper."
+    }
+  ],
+  "related_formalizations": [
+    {
+      "id": "https://github.com/ls558/MeyerGeneralProblem/tree/65fe4ece1e3d2e83a9ac757b615141d3c0a2718b",
+      "relationship": "adapts",
+      "note": "Extracts OriginalClassicalStrongCountable and its recursive project import closure, then ports to the module system and pinned public dependencies. Internal source names are retained."
+    },
+    {
+      "id": "https://github.com/balancedscorpion/countably-infinite-dimension-meyer-spaces/tree/0de61962a757b5e930dfe59dd94d191ae1f87922",
+      "relationship": "other",
+      "note": "Submission-layout and shared module-port reference only. That project proves the broader distributionally tempered case without weighted total-variation bounds; its theorem is not substituted for the strong theorem."
+    }
+  ],
+  "status": {
+    "scope": "The whole original strongly tempered Meyer space on one classically selected locally finite parity carrier has Hamel rank ℵ₀. No effective radius algorithm, universal carrier classification or equality with the broader distributional Meyer space is asserted.",
+    "sorry_count": 0,
+    "sorry_in_definitions": 0,
+    "axioms": [
+      "propext",
+      "Quot.sound",
+      "Classical.choice"
+    ],
+    "main_results": [
+      {
+        "declaration": "CountablyInfiniteStrongCrystallineMeasures.strongCardinalClaim",
+        "file": "Solution.lean",
+        "comparator_config": "comparator.json",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Quot.sound",
+          "Classical.choice"
+        ],
+        "literature_dependencies": []
+      }
+    ],
+    "notes": "The proof-hole count refers to the proved Solution and its imported proof closure. Challenge contains one intentional theorem placeholder, never imported by Solution. No Palomar verification or registration is implied by this metadata."
+  },
+  "fidelity": {
+    "divergences": "Challenge states weighted summability directly on existential local atomic coefficient families indexed by a bare carrier subset. Solution proves equivalence to the canonical isolating-test coefficients and equality with the original StronglyTemperedMeyerSpace. Physical and spectral records may have separate exponents. Fourier normalization is exp(-2πixξ). Rank is algebraic Hamel rank, and support containment is intended. Classical choice selects the schedule. The span-based interface is proved to coincide with the entire two-record strong class."
+  },
+  "alignment": {
+    "namespace": "CountablyInfiniteStrongCrystallineMeasures",
+    "statements": [
+      {
+        "source": "PR #653: exists_stronglyTemperedMeyerSpace_rank_aleph0",
+        "lean": "CountablyInfiniteStrongCrystallineMeasures.strongCardinalClaim",
+        "module": "Solution.lean",
+        "note": "Exact countable rank and the explicit weighted local atomic membership equivalence on the same carrier."
+      }
+    ]
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "tool_setup": "AI systems in the source MeyerGeneralProblem research and Lean development; exact historical model identities have not all been independently reconstructed. Source records include mathematical, adversarial and verification agent roles.",
+        "notes": "Historical source evidence is linked in docs/PROVENANCE.md. These roles are automated, not independent human peer review."
+      },
+      {
+        "method": "agent",
+        "tool_setup": "OpenAI Codex, GPT-6, October 2026.",
+        "notes": "Extraction, module-system/API port, independent interfaces, metadata and verification. Models are not authors."
+      }
+    ]
+  },
+  "review": {
+    "status": "self-assessed",
+    "notes": "Self-assessed extraction and port. Historical agent reviews in PR #653 apply to that pinned source, not this submission. No independent human review, Palomar acceptance or permanent registration is claimed. Jamie Martin requested this preparation and is the sole submission author and responsible maintainer."
+  }
+}

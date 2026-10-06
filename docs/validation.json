@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-06",
+  "source_commit": "65fe4ece1e3d2e83a9ac757b615141d3c0a2718b",
+  "toolchain": "leanprover/lean4:v4.35.0-rc3",
+  "project_lean_modules": 581,
+  "supporting_proof_modules": 579,
+  "build_jobs": 4620,
+  "checks": {
+    "lake build Challenge Solution": "pass",
+    "python3 scripts/check.py": "pass",
+    "explicit_statement_type_equality": "pass",
+    "proof_closure": "pass",
+    "source_hashes": "pass",
+    "dependency_pins": "pass",
+    "git diff --check": "pass"
+  },
+  "theorem": "CountablyInfiniteStrongCrystallineMeasures.strongCardinalClaim",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "palomar_status": "not-yet-verified",
+  "extraction_manifest_sha256": "edc0948dcd8a35520fa0a6392b2c9b9353d7a613140490005ed2156541514902"
+}

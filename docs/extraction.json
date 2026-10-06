@@ -1,0 +1,3483 @@
+{
+  "repository": "https://github.com/ls558/MeyerGeneralProblem",
+  "commit": "65fe4ece1e3d2e83a9ac757b615141d3c0a2718b",
+  "entry_module": "MeyerGeneralProblem.Cardinal.Strong.OriginalClassicalStrongCountable",
+  "files": [
+    {
+      "path": "MeyerGeneralProblem/Atomic/BesselSynthesis.lean",
+      "source_sha256": "f74892c30219a85bd272b4898ef43cf94119b438837e5ece92d3850cc66afceb",
+      "port": "reference-port",
+      "submission_sha256": "453713a9c3f1fa4e35900cc70143c0099f6bd688eecad1926f26df74c9b34450"
+    },
+    {
+      "path": "MeyerGeneralProblem/Atomic/GramSchur.lean",
+      "source_sha256": "a46deb220540550580567d34f64e64446c406ee0a8ec2805f7e5df21b6e80e7c",
+      "port": "reference-port",
+      "submission_sha256": "cc901f0d072e178ab895ad5606c07dd4fc70bebbb65a8c2d699a4afda467b3af"
+    },
+    {
+      "path": "MeyerGeneralProblem/Atomic/HermiteDistribution.lean",
+      "source_sha256": "3ea5eae831de4693f4b5da99b9167257b9b71481b3ce1dae2f961b72d89d95a4",
+      "port": "reference-port",
+      "submission_sha256": "aef0d1fbb6cd13ac8e0a613e84c88024eda56179fb3fcb81d98f57377592617f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Atomic/HermitePointMass.lean",
+      "source_sha256": "96d900f2d5b56a3d52d720b274253dbd9d1e095a8c3054fcce60773986820133",
+      "port": "reference-port",
+      "submission_sha256": "0f43e7f0a6e8bc4de1bd2e37beed18b3fe5c6aee24bd3a1212b8990e65e62f92"
+    },
+    {
+      "path": "MeyerGeneralProblem/Atomic/PointMass.lean",
+      "source_sha256": "703d652299b84ff4ab2bb2f8d863e34a9ddb88d7f3c780d8415c782fe63bd1f5",
+      "port": "reference-port",
+      "submission_sha256": "8327f8d0a73bfaec0d23f03691e2bd728c3f13d91efbb0ca611242dbd72a89f3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Atomic/RieszSynthesis.lean",
+      "source_sha256": "df2d02e3c775ba3b2d64cebf568c3d824749fa924e754435d1b41d32a0a54c48",
+      "port": "reference-port",
+      "submission_sha256": "011ca3a5eb5f0747011026e48bfe44fc3c8a4174f6feb649044fd058448b5622"
+    },
+    {
+      "path": "MeyerGeneralProblem/Atomic/SupportSubspace.lean",
+      "source_sha256": "e0c074c9ef5835550631db60af54bd339511cbce6a2321401fb8a87bb5da25d5",
+      "port": "reference-port",
+      "submission_sha256": "27221f637f02ed9e3c2d17c4fdc9ef69c8dfc0a4e08cb1dc826967ea76c1512b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Basic.lean",
+      "source_sha256": "4a67c56fe119c9c88c8e3b25b8fa2d90d63ae1e68271b5a180f5aec7648eb25f",
+      "port": "reference-port",
+      "submission_sha256": "41883a1a9bfab2be0e15544575c9edd8913807177c9e082c51a365a4a026ae41"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/AnnihilatorFourierSeries.lean",
+      "source_sha256": "b8a66cb416a27e47a3dd7a2e30fcd552689c06b627df321b03f3e6bce714ed8c",
+      "port": "reference-port",
+      "submission_sha256": "2422008074f452f8a038b90c7a4f0f341db1d846406983a032acde5cd66f16f4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/Definitions.lean",
+      "source_sha256": "d232616a04f0c3ed1a64ed79920b2ceedce754be4d242ccd15db6116ea580848",
+      "port": "reference-port",
+      "submission_sha256": "b5123fa4592269daf8d6effa5a89ca75eb5b0a70398fcefd0b312f563b472f66"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/DistributionDifferences.lean",
+      "source_sha256": "aeeeb9ee89148d2c8e70858621091607515ca62f191556bb8fc7c0fd5656d203",
+      "port": "reference-port",
+      "submission_sha256": "9c485c95c23f407dae29882e92df848a27984fba32081ca808052663081f89b7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/DistributionLocality.lean",
+      "source_sha256": "fef0afdf9a2b9055874aea3a298d21047c737bab0bd0879fbfe57d5a0a7aa27d",
+      "port": "reference-port",
+      "submission_sha256": "991de44ba161411cfde777ae55b1c9126bf17093890a669cd09f18073f247577"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/FiniteFourierProducts.lean",
+      "source_sha256": "1986668129664539bb3c2aa11f5b5ddeab408d907e4db233a94cd27dcd9b8865",
+      "port": "reference-port",
+      "submission_sha256": "11ce18133851b877479ab691c0e026d5212bd0bd04731088c3e45fbe20a5fdc8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/HalfShiftedComb.lean",
+      "source_sha256": "dd7bbe2b3187b390707900940bd719035991bac59c359a6130fcf49cfc90ff1c",
+      "port": "reference-port",
+      "submission_sha256": "70f9492bad62dec06e7dd2636858890654ccdfbf8ec7eb4ed7e2c33a4203bb47"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/HalfShiftedFourierMinor.lean",
+      "source_sha256": "6c017ea82c6455b00ba8f390fad5023e4b2028bf929d2280ba69d9a0f09fc7ff",
+      "port": "reference-port",
+      "submission_sha256": "a7f9e69de934380ab0279bf675e0535555e9431eca30f40c1eb71ccb4b2fa873"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/HeadNativeBounds.lean",
+      "source_sha256": "336a26848923a9b432a5318e766b8f96313f4c74f7c1cb6e7314baa745cde8cd",
+      "port": "reference-port",
+      "submission_sha256": "6af29d4993ebcff7d5c2533c5411d3dd12e4194a84bd8f01f251edde3ac367b7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/JetTailBudget.lean",
+      "source_sha256": "6faf7a760929df65c7bd2d554ce8a164350df20a8bd498c6347efffe2f9b131a",
+      "port": "reference-port",
+      "submission_sha256": "ce7379b038eb9a3e12420d2ddad126e064d2408a0ffaf25b140f36ba5204f7c8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeDifferences.lean",
+      "source_sha256": "f66c05f08d5a73c4e40d4562d0ba502eb6addac33d8307b7582b90f3574099bb",
+      "port": "reference-port",
+      "submission_sha256": "4553527ea77a084481b690071af50ec603e08fe10a09af1e7c088ab5652ae25b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeDiscreteJets.lean",
+      "source_sha256": "10c158ed4800fe2474b6ac27193d0668d1f678e5cb8a5819d7bd91f11fed039e",
+      "port": "reference-port",
+      "submission_sha256": "e2c62037395206591ac69f0153e5feb7b38ceafc02d3499b65faf2f1c935556d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeDualMultipliers.lean",
+      "source_sha256": "1a09ace752eb1533cc27632dc681a11dce2155ab075eff8d6513ae2951fbb8af",
+      "port": "reference-port",
+      "submission_sha256": "d6ef872948b20acd31a4501988f8c3644ef3170f892fbb9a86a4243fad71beb5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeDualOperators.lean",
+      "source_sha256": "da22596f017786bad98f9f096c42e14c74a856092fda1b1255c3dbe46682dc41",
+      "port": "reference-port",
+      "submission_sha256": "dc5a606eb5c2254b74ddf4749c04221bf41eddd9902561df9ebf90ddf198a83d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeFourierMultiplication.lean",
+      "source_sha256": "f7791325ce5362938830d619f4dcb73dfa3636b8bd38fd8df99bd2b2b9a55d4e",
+      "port": "reference-port",
+      "submission_sha256": "27361db5e1e16f91c82b240e6b12410dc622806ea41cee8932441e3396a50cc8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeMultipliers.lean",
+      "source_sha256": "32e0e3077121335ab56372855f46ff7c63029b4d30cdb8d56ec4f9de5c77bf6f",
+      "port": "reference-port",
+      "submission_sha256": "9ee0d68897773253d74d2687206fbf091bbc551658033a6e72f8a151557e8d7a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeOperators.lean",
+      "source_sha256": "af0a363f3b1fbc0cc2ee3508c251fd4a1b1e1acb35a844dd7448e7217262b1c0",
+      "port": "reference-port",
+      "submission_sha256": "445405662129fd0a08448ca72d1f227be98d69c90f4dd789d113a25c123f8fc7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativePeriodization.lean",
+      "source_sha256": "4da346d5a7a54f2d7be484889bfe1f936d95250a42e56f09e570154f1e0be76f",
+      "port": "reference-port",
+      "submission_sha256": "96cca4c1b90ce9eae875d5a7985ed374c3e28c3e24459f77bc2347132e2ac6fb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativePointJets.lean",
+      "source_sha256": "44ce14e076d9e24276e02e5fde0c60dff89cac432ab4e22dd7fd9507e2ee4f3f",
+      "port": "reference-port",
+      "submission_sha256": "4de90a3fc187685715b7154c71004b811ad9a980c621d240d103d6d4d2524d65"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeTestTranspose.lean",
+      "source_sha256": "29310e9398818216f5781e570d47a308f3e961c36431391f0c7d3af047f364fc",
+      "port": "reference-port",
+      "submission_sha256": "f6f5e7b479ae0bee0eb303afc5ddc3ecb3e3004121e3db0f184d8f49188779e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/NativeTranslations.lean",
+      "source_sha256": "39b61f076ba10951bb2ec546b36f2d7ee1f5f471062ef8c31e8ebb3291376b6f",
+      "port": "reference-port",
+      "submission_sha256": "ba549cc9d6e73107bd35910cdc64898da0eb69b26d697a3ab23c7f2327505397"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/OriginalMixedNorms.lean",
+      "source_sha256": "e8495bde66947ba71fed0836a4571f8a70e0fcc701108e6f042dae8a60bc1b43",
+      "port": "reference-port",
+      "submission_sha256": "58aec1605ebf1c3461caa45f81dcaafd42d663f6b5eef0463b7e31537de8194e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/PeriodicAnnihilators.lean",
+      "source_sha256": "61e1f6eb08fed53f70f74083c5b4cf7ae2534fc64d375ff3d5e61e2622a9b29f",
+      "port": "reference-port",
+      "submission_sha256": "11921e473c8ef0ee03949b2a470649f9083318553471edb92575eae12815821b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/PeriodicDescent.lean",
+      "source_sha256": "d5954020021066673675b912e8135e46903b8166acb239e2c896c0de318360ec",
+      "port": "reference-port",
+      "submission_sha256": "e7122d0b17dbe2b97234d780a8b93f8b51ae2b332ccbdecbfe186387ef07d2e7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/PhaseClosure.lean",
+      "source_sha256": "ae02598abe5ff09994c6098a3a8c45f0fcbd2ddbb2b9df956bf2d9066c704c91",
+      "port": "reference-port",
+      "submission_sha256": "3158a7a950694175ea24630959755b0bad3a1b5760499e720f1842294855b20b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/PhaseGeometry.lean",
+      "source_sha256": "08c447e869f504928bd7b481870d7588f568c01d96bd9f17a5ef79ac3eb9f360",
+      "port": "reference-port",
+      "submission_sha256": "71eb34a8ca15076498043c0f254d146de5a9c39b264de3d8410134940fc721cc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/PoissonHeads.lean",
+      "source_sha256": "869d3a47b9b283a5ee45138875222cf889031a4715d9021b281a5f855dacb7c0",
+      "port": "reference-port",
+      "submission_sha256": "960d128365be125734935a45ff324478c0010be63b03d770721ba5b69fedaa37"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/ShrinkingBumpBounds.lean",
+      "source_sha256": "a36ca95be85c9b50c43da36b4eaa587da8e9cb5c9ccfd4cf93649a70966764ee",
+      "port": "reference-port",
+      "submission_sha256": "9c0f5115f9531a6ea67c16e7317cc684797e566785fe43a68f71518b16bbb909"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/StageMultiplierBounds.lean",
+      "source_sha256": "7da4d08d287b867984eb88d443f9aefb1aa571ecdd1933c09d41b543e3d82ab9",
+      "port": "reference-port",
+      "submission_sha256": "4122aed5cea067afa98707921eb765dd4cca01ca7caff817c9cfe25cb574eed8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/UniformSchwartzTails.lean",
+      "source_sha256": "520bb185136c4084582beb46d96203b8220dbd639895d499c56bbb5ea82e96f0",
+      "port": "reference-port",
+      "submission_sha256": "dc7e66bf0902d0fca349b9d81df90d58e4aab519ad2c1c76a894b19f81bbaadf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Adaptive/UnitPartition.lean",
+      "source_sha256": "72787c3b08d37d344626688adccb085bb8c79c8f4926a4c03cb4b903a3465cc1",
+      "port": "reference-port",
+      "submission_sha256": "f9bd5601cebd4b5814c0c24cb1e7678e847d30d64f07786ecff7a10fc367a4db"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/AtomicCoefficientBound.lean",
+      "source_sha256": "03c2e505481b5f419aae4f2fd28df1ebdc332eeb7160f70914764586d5cf7c24",
+      "port": "module-port",
+      "submission_sha256": "aa29014c9a1c2326b73e810b8b1ea546089da475accb7144f23c34816e044343"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/IntrinsicMeyerRank.lean",
+      "source_sha256": "b2945cfa365bc37d5557d3c5cd2a8c158f786c71c06de8a6fcc40ee62fe8e494",
+      "port": "module-port",
+      "submission_sha256": "37a987ff716c49ce4d42a2da72f06e30978b89501f2cb65b518c132896210085"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/MeyerTrichotomy.lean",
+      "source_sha256": "1324f045af761a7798aa9c2c409abe1d8634809414c5561e40ad6b62608f1e29",
+      "port": "module-port",
+      "submission_sha256": "dbc76d55ec4fd5fa619698cba67d94aab35142f4defa01839290494a63b2f263"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/SeparableHilbertHamel.lean",
+      "source_sha256": "e9e3a9cbbf57eadd2d4a2d7a245d00030346b27066a345fa09a062a10ecbe674",
+      "port": "module-port",
+      "submission_sha256": "3ea5288f66dac4cf1d47d191611db398b57b9773fc4df66e010eb280678a64eb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/AnnihilatorArrays.lean",
+      "source_sha256": "e75de958e2c76ad79cc387e25370f0c17f0ceb987b86611ae0bf258fa1da0d29",
+      "port": "module-port",
+      "submission_sha256": "91d0d1347ff32d0ebfb5b2eb9b959c7887eb1c8de2e617b35ce9ebfb76bc6605"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ArctanQuadrature.lean",
+      "source_sha256": "066ba024532165b9173adadd508d8f7bc72195ae50304f840152b1d7c0c51a27",
+      "port": "module-port",
+      "submission_sha256": "24e4dba62b0e0564330e749ad1db6289955d1c19fa1b517ae4e678cba1fa536d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ArrayNumeratorUniqueness.lean",
+      "source_sha256": "790ec977157439ef97f84db210b32407547e4bd86b20738b448d52be58ae1b12",
+      "port": "module-port",
+      "submission_sha256": "c95b18cf1bd146a469817579833546e5c7aaa9b9022f0e76d467073b64e34d65"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/BidiskSeries.lean",
+      "source_sha256": "8e73819351a4332e3ba8291e6f951913dfca0275e187b13783c79823a62fd974",
+      "port": "module-port",
+      "submission_sha256": "a40792e40482b6badca05b4944f392648d73ac1fcb139eb87eff93417473a767"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CanonicalContinuants.lean",
+      "source_sha256": "c2eda3a9d2ad23283f16be6bdea0b81fa49bd35efc0df03998938a0c1843d44c",
+      "port": "module-port",
+      "submission_sha256": "340d0037b5f0eae2ae63f53fe9ce4ff7e8d4112d9a7440e186a1209360fd8d95"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CauchyJump.lean",
+      "source_sha256": "48f7a293b0e3db6f9c113af1b679a41ebad25fc0ff46a2ca7008c676fd258487",
+      "port": "module-port",
+      "submission_sha256": "a26eee3eea340191ce4aae510885f8e5ee3ce20b88ba8ede72dc4d4a2f1b5756"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CauchyPeak.lean",
+      "source_sha256": "6a14eceb0e9e8e6afc1aca02a7993959f8c995304cfbc9d4dcaf0abe1cb70f6c",
+      "port": "module-port",
+      "submission_sha256": "2fbfa12b49aa611a6f4a8d79cb0d63c567f573c3b4e87cb21087cb179af0f04b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ConeWeights.lean",
+      "source_sha256": "1ba6522e05152f692cac8763a22e87ea1ec386fe9d6d10266520fae0f38a6ada",
+      "port": "module-port",
+      "submission_sha256": "2a0fcd520262fdb01e264123953daac0fb021af0676ee1efb93a6fec7336e5f0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/DampedFourierIntegral.lean",
+      "source_sha256": "b58a18bafec935b5499c0919c7f62637deb23dd430beb1729a823f377f6afae2",
+      "port": "module-port",
+      "submission_sha256": "0dcd6961aedbfed2deb97840122118b2c4ef0e3478017afa6d840f0e7684d18d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/DampedSpectral.lean",
+      "source_sha256": "0e2a93bac33ed9d54295f06d6775b9a6d0bacccfffa3b0010d8ab3cccab79de3",
+      "port": "module-port",
+      "submission_sha256": "b4f2009a1bb5dd89f0d27a16f35eee97727fa4315f1da2df7b2228e032459f9f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/DampedTubeJump.lean",
+      "source_sha256": "5ebfc926b29d0199385cd6bb92fb3d4ab433f8839bf2ccb5bef2fb51438b7333",
+      "port": "module-port",
+      "submission_sha256": "2004e380a02df8789e55225e83558f90c547187ccf726b4a6a8688d56bfae2ff"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/Interface.lean",
+      "source_sha256": "b6bc6cdc86a1c344d131c64e6f6690f90bcbce77a300f11e81ed6da87a77cdba",
+      "port": "module-port",
+      "submission_sha256": "11ea8df46fe20cc62bf26127ef9047c8c25a5351ab989067ef6672e1e45418cd"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/LocalProductJump.lean",
+      "source_sha256": "b45b31b6c78770f1d31684fe6896dbe444b6ceab33536d85e4452db2503beb3b",
+      "port": "module-port",
+      "submission_sha256": "70eb92e18cc42a0c8169aca4d394414a8c30b3805d7410140c75ee078e5dc95e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/LowerQuotientSeries.lean",
+      "source_sha256": "4f641efb2e5b2fdeb2dfd650cff1863c12695ac850071e045918ad4af4d52b60",
+      "port": "module-port",
+      "submission_sha256": "9f91433a15eddc2f2a86956f32b11aac729675211de3d8fe679333f7dec1c0d7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/NonPoleProductJump.lean",
+      "source_sha256": "e008a25774813e9574908fc46ff065678ab6f9a9ba34fe3e519b7c32f415121f",
+      "port": "module-port",
+      "submission_sha256": "d69edbf71e6aaabfe192ed2f3ee656d7b8c0a121da6b2bde6b7c06032accb64d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalHeadCornerBasis.lean",
+      "source_sha256": "d7ac946194aaf198056a3805d039c8b66bacca24f422dfe3541c7755b8cbac81",
+      "port": "module-port",
+      "submission_sha256": "9270525d66b180ab0096895fb6eae9f3f18385e47ee4737a8ef7f91d785ea623"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalHeadFreeBasis.lean",
+      "source_sha256": "338ef7febf40712f9d581cbe4d352da470e328b8916a89cbdb873e74eaca7b99",
+      "port": "module-port",
+      "submission_sha256": "bd4bdb86385d642db14a58db7cd6cd32da4e318993daea385306597022276f1a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalHeadGapBasis.lean",
+      "source_sha256": "7cad4501b7759f6a98779f01c98ccb3b42fa5ae6e6132c175065a492d4534713",
+      "port": "module-port",
+      "submission_sha256": "105ce3a22367d2e30f349817496b9466e407206e4b9c3ede205cc0eae466ff58"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalHeadLabels.lean",
+      "source_sha256": "c99633a127eadc447f1890c562b5988e4814ba4b45cae8f8321d834dba6b018c",
+      "port": "module-port",
+      "submission_sha256": "ef97c79435b4529148b8849b6eb53f005fc01bbd3ed51b9ff78676d1de3f7372"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalHeadProjection.lean",
+      "source_sha256": "2490ef1b360010bb1761d46ec00ccfd33f8929f775d178a8e1913632fdd7bd6c",
+      "port": "module-port",
+      "submission_sha256": "f8540079136297f903e21c34afccd7b36c5ca03fc0629c958916e33816a5051b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalHeadRank.lean",
+      "source_sha256": "3e598b5824c331c5e21222ec660d01fa76b3623327650dc17031f46b3d4fc1d6",
+      "port": "module-port",
+      "submission_sha256": "0cd5fd818178c15d31713a939dd526f3dd2230457df72959b6368bd142769e5e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalHeadTriangular.lean",
+      "source_sha256": "a1f9160dd5593f6778d37236c88d652af8f9cca6c251227132d6fabcabf1332d",
+      "port": "module-port",
+      "submission_sha256": "59e11ca1fd61ecabce0975d5a3307c5eecf8ed5aa93406a7ade8d096745893c7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalSlabPivots.lean",
+      "source_sha256": "f765a1d3385940fe4fe81c01e1a17419ad9906f2d566a843196f5b607669374f",
+      "port": "module-port",
+      "submission_sha256": "123598faab3c28a1b241fcd446e4ca44d121dfce23f8925ac101d8fab2b03f74"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/OriginalUpperTube.lean",
+      "source_sha256": "8b68cc630ef72b1f439f7ccd0d861d80976d401f1f2d3f86331808703931c0ca",
+      "port": "module-port",
+      "submission_sha256": "f61890111dca0ea11d856621fda15a1545bb53fbb9885e3ebcd7d3f3566755bc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/PhysicalDistribution.lean",
+      "source_sha256": "fa58f3ebedb98bfbb3e240553aa3d4d0faa6abbd40b673a5b3fc9b6f25aa1f2c",
+      "port": "module-port",
+      "submission_sha256": "0cb5eae97962d3ad50c8285c63bf0e81a6a58b20a4379a822a73dbc1dff0a0b7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductAnnihilator.lean",
+      "source_sha256": "4fe6b45abad5cf9376bbcea52369420481269ed1582dbc796a84ca32f6f92ad9",
+      "port": "module-port",
+      "submission_sha256": "d78a35c7ae8f559967a1c87a5bb8fd56edd417701f016afdb2fb8fac29ce5d2f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductDeletedPairs.lean",
+      "source_sha256": "73e426b290d93e0ef4bb5b43edcc7d5e26fd6defec8a8d93942a9c0314e6d795",
+      "port": "module-port",
+      "submission_sha256": "cdf6b5695c4d67c4d5f118db4eb34394b7fbd719cdf8384a3a1e5609e0f53a15"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductFourierPair.lean",
+      "source_sha256": "475a28d3666040d225632a5f53159ede05d2c5dda181eaa3fc00435ea2598e4d",
+      "port": "module-port",
+      "submission_sha256": "fb0123d755e672c3164f2660a3801f9f51c05582be0ce0d63eb601c3b1dcdd92"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductGapLine.lean",
+      "source_sha256": "bcb94ab0f018c0762f0bd3fe064c0e852b5c39f482feec0b53597189b17cc7eb",
+      "port": "module-port",
+      "submission_sha256": "d15b2e8cc56b1a3a392b49f62f6096917179cadb40349ee2de5f142cbd39658a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductInverseNumerator.lean",
+      "source_sha256": "fa7d220ba78276b94461205ebd838f9f92edf0b184f5b622160b8d3fcc4b8bb4",
+      "port": "module-port",
+      "submission_sha256": "6d69e72363332309c4516ab02c8c42dd9a68f8637b31432480b14243e4cf8dcc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductLaurentSupport.lean",
+      "source_sha256": "a34338a1c8363dc51ffe7894dc4e6b64b91c995ba8e3e0187a30d1cd7e9e8099",
+      "port": "module-port",
+      "submission_sha256": "b017cb9702df0258fa7f1373f5eb282100c14265852f8abe3e117f0069398867"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductMiddleGap.lean",
+      "source_sha256": "160256c0c509330403ebe4067a8cf9b48b1385e0dbb204fa80e33da156fda9f0",
+      "port": "module-port",
+      "submission_sha256": "38f733f5602fb4cc869f38eeb9fa65442ef3194eea85b0a89a03a7ff456450e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductNumeratorSlab.lean",
+      "source_sha256": "8f2df769530cca323f6e053f0f2977bd5f189024424bd6f20f135817ea4ce307",
+      "port": "module-port",
+      "submission_sha256": "a039f7125ee0982ef7b0d750e60797e2891a9e466dc4d5dd4a8d6d250540d7c3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductOriginalRows.lean",
+      "source_sha256": "9a682cdbed979318094b311ba1965b03eed4fa4248714670f677d7dd3284d7d8",
+      "port": "module-port",
+      "submission_sha256": "0760f070b3e52e3d57e50fb8a6439cdd6a2cce895c0605be25136ef362eff59c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductPairClassification.lean",
+      "source_sha256": "700735123bcdda3a3c5a92a3234b7c8144a7492469dd11dcea77d4d511c50458",
+      "port": "module-port",
+      "submission_sha256": "366225eaaa91daab94dade35f07ddb43ccab82c230b8c2a2fb9fa5c289e1935e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductPairFiniteDimension.lean",
+      "source_sha256": "dc8dd261e5bdb24e2b334abb155a61287f90809c95c8f94759a643f6677415f4",
+      "port": "module-port",
+      "submission_sha256": "e24e1b814c9bf0b0522e55d8009e6f33463e0633ddd1b52745f6005026d7073a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductPoleJump.lean",
+      "source_sha256": "fb367e13ccbd7563532b229e915df2a7b238d0ed8a0c1812997b1c94634f2d67",
+      "port": "module-port",
+      "submission_sha256": "30b0e53b2b118301e55d020f62afc1b48e0708178558c721bfe09b60881f1dbf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductPoleMass.lean",
+      "source_sha256": "7fc7da809ec1aec21fb962a78c142ba448a1341255a81214b183083c01bb49b3",
+      "port": "module-port",
+      "submission_sha256": "bc2c4ac98d504f8994b341d9f4da4cba7d7102761e9582138efcbf711e1cbd7a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductResidues.lean",
+      "source_sha256": "54c0d4c77b1c09d08da556468f78a8687f8ecedbef752830091da368a8936a85",
+      "port": "module-port",
+      "submission_sha256": "5f6e8f921653b7fa42c5e7871239425f9e88937a8458a734c2f8545c73dda9ee"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductReverseNumerator.lean",
+      "source_sha256": "a1106f602fc4fbf3ca9c134f81befd50de12cd7cba60ff10f31d7666a871c028",
+      "port": "module-port",
+      "submission_sha256": "845401afcec6fce7f5e5edfd6b3215353946580a4d1bfe8a84f213bb5fe1a89f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ProductSeparation.lean",
+      "source_sha256": "8f543b3c3f2aa7fe03e10a8940c30955cd0403d1fe198c4275a76bebd14fe41b",
+      "port": "module-port",
+      "submission_sha256": "90153221cab1e529d33f2c722bdee498671da2e7c5d09191e52310faa83b02e9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/QuotientTubeSeries.lean",
+      "source_sha256": "af5df923bef66500da00c3b3168ff964f128d7c9d7328facc0309fe581b92e8a",
+      "port": "module-port",
+      "submission_sha256": "275f4f05c2c98048572f048e92070478584510a1a8996f334513176157ce3aa4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ReciprocalSlabSeries.lean",
+      "source_sha256": "21885dd048d04284ec79bc5b4d800d79e8da3ffdd2a4647a4e8ab828ba2af52f",
+      "port": "module-port",
+      "submission_sha256": "7754c0dc39323fc3b072c62ca802442d9ca3fbbf1104dd5a431073f131da8407"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ReturnCorner.lean",
+      "source_sha256": "caffc87eb01d06c90b0e3f8d724a41832faad0fc2afe550ed788a2d7699e9afa",
+      "port": "module-port",
+      "submission_sha256": "017ab2046c3bc85c6e4f6d67ffb94f8023bcd54aa8fcebb32438041bd500e8ec"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/ReturnMassGrowth.lean",
+      "source_sha256": "c80a1c304adb9b8560a17dd0293b8a6187e332eed123e53f1451c069bca578c9",
+      "port": "module-port",
+      "submission_sha256": "d646cea28644fa90196827ff6d76eae68cdc99ac80b4a3cc386ea8de7891975c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/SlabCoefficients.lean",
+      "source_sha256": "c9be207bc2b2f26f847e6befd057be69708987269d06f32de0b8aa77ec14ed5a",
+      "port": "module-port",
+      "submission_sha256": "2d78de4e6e533b872b59f1736c85d15a7e41adaaa0010f003542101378203090"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/SlabPowerSeries.lean",
+      "source_sha256": "53a4816f91933e1d7b478f582d98f5817a8e24cd1cdb8e342a438c1b61e301bb",
+      "port": "module-port",
+      "submission_sha256": "9c8c0b529775b413faa263a5b33e205225dce650c39afd6006f378750c37cb26"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/SlabZeroCoefficient.lean",
+      "source_sha256": "305fb283b9c24b6991154aa2a629149c945637347eeca5a4ae5cfe55be212ca5",
+      "port": "module-port",
+      "submission_sha256": "a7c1daca68437d643b4d63ee572cadc2015864468feb04db1042722404bc3b34"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/SpectralConeIndex.lean",
+      "source_sha256": "33c37897773659ac0fb2b3facf52dc95b9bd0c631a1be4fd6e9196a2549ae46e",
+      "port": "module-port",
+      "submission_sha256": "80be095927d9e2ca078e3e827eacd34b0697373496b3849b71a125a1631d2758"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginal/SpectralDistribution.lean",
+      "source_sha256": "c3900915fa9342a240c89973f2ec22996438c4eb37c37311a2d46d7865a68ab3",
+      "port": "module-port",
+      "submission_sha256": "0973bf71b4211f2cbfe875f3b50cde8b9551105f3be1cf1a86ebf19da5d10600"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginalBidiskCoefficients.lean",
+      "source_sha256": "ed6e9695165e2aafef0c1adc460c4cff3ed8df685fa164427e779fed4f33a64b",
+      "port": "module-port",
+      "submission_sha256": "c9ea4fee58a3767c4c35f7f32c7e1857fa509c7f65ad0a7188eb3c46391c10ec"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginalFiniteCoefficients.lean",
+      "source_sha256": "3b015cb6ab72ce8a75a26d868e184f1c8551e777d77dee3ff8d1dcc3800e5775",
+      "port": "module-port",
+      "submission_sha256": "835b060ec07ca70163e15bab304c4a5129f93294dcb6df2df4e8f7d446493f4e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginalLabelledRoots.lean",
+      "source_sha256": "9bcfd02288f339e87fa40c5ffb7c5bc7795db9189dcf5ee7706cf40cc458d880",
+      "port": "module-port",
+      "submission_sha256": "beb07a0e0f9808345f9e0f9af33d38a0e6a296be3e7125bef8f00f6d7dc4eb4e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginalParameterBlock.lean",
+      "source_sha256": "313d837df3d4e93cd5a4f25dd021fcd58f84ae8f9c658d5e8b3e238104b5607b",
+      "port": "module-port",
+      "submission_sha256": "085fc2711d7f83260d971e35380a4708cd34dfa37f1a05791ddb282a93cb85b8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginalPolynomial.lean",
+      "source_sha256": "135227ade274fb624b612080d45c123b456a67c105c8ca7a3ef91e03073c394c",
+      "port": "module-port",
+      "submission_sha256": "ea1e772c6e1fe3d2c10445c0fdaad9731e6e9c510e3af7d088dee55672577c9a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginalSheetProducts.lean",
+      "source_sha256": "0a47d7034c871ebbfab89df7b77e48c0d503839e4f8571f5190376a898fb465f",
+      "port": "module-port",
+      "submission_sha256": "3a442234dd2601b0b8c0bf01cb63f89c6eaae0f970fb7db68c1c385c55da678a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactOriginalZCoefficients.lean",
+      "source_sha256": "fbd672a7ed3426a5591b92535ebc9001272388c91dd215846c12d133c4e00232",
+      "port": "module-port",
+      "submission_sha256": "3d78215219952f0ed657d9ef4a91528d8ca3f138485d777051cbdd84e7fb9b70"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CompactPhaseEvaluationBounds.lean",
+      "source_sha256": "4ca5d9d84531fcce90c71febd32a40865b488fbb5da33dc0aaa51fcf106a8c4b",
+      "port": "module-port",
+      "submission_sha256": "a06e9972254b5a84082333228a23a023735e81e1934e4591d293ff5923936987"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComplexSheetFlow.lean",
+      "source_sha256": "ea080ec00a9f068340c2b141037346c22073f0447b4fb37a50220aeb355dec67",
+      "port": "module-port",
+      "submission_sha256": "2b09d01e8cbc3865b064815ffaa6d21ad7565edbe0767482a5f188368bd7406a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedNoncoarseHead.lean",
+      "source_sha256": "2c5ea96b820914bbab0c0aa25a4b237f574c5b218ad074156ca5771eb98fbdbe",
+      "port": "module-port",
+      "submission_sha256": "4e4dfa33b8ea63529ad0955681ed57bb1c47c3d301c22b6efc61efb8061c6a5c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalDirectedLayers.lean",
+      "source_sha256": "4713e9b31bc690f92696b512f4a24dd1708ec11ba5fb8d9417c3338444919c0f",
+      "port": "module-port",
+      "submission_sha256": "8b149377b3379ec68934c23b8e93719c68f43600f45ca8ce76515d69fc1c5ab1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalHeadBases.lean",
+      "source_sha256": "0ed5e54afcff388086c9239c6015ca3f892ba1b9856be666ba5e6c84b0f9c32f",
+      "port": "module-port",
+      "submission_sha256": "4abe3487afbafeeece0d2865ec5279e29ca045a362c5a7483802d62a213d8696"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalHeadMask.lean",
+      "source_sha256": "4fad32cbedf2ad03a7e0bb83577d6aa66019062b6accc7d037960f240f1cb269",
+      "port": "module-port",
+      "submission_sha256": "43cfcc3e5274406b97c424a7f3910fddb01f2cfe4a49a4d9ba8949362ca4df06"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalPrivateLine.lean",
+      "source_sha256": "d9e6d0985e649759e0eeb333b85e9f67a3d57d3558d887cea6bdd7479331a8a1",
+      "port": "module-port",
+      "submission_sha256": "8300cdd11aff581302d6cce632524ad327629c9cc8fb1452fc9bc350f6e0aae5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalSelectedKernel.lean",
+      "source_sha256": "a9524148db29d0bdb00e89ed621946d7de3a8c5b8e26480dc438631a6899fb48",
+      "port": "module-port",
+      "submission_sha256": "689eaa53db0de7e6cb3372f5738ad4ab5d2de861a6fae2acd22839d950ef29e4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalStrongLine.lean",
+      "source_sha256": "504b653c6fcb4cfff0c2ee961f921e91240209841e06fb0bd3ba075ab2ad6313",
+      "port": "module-port",
+      "submission_sha256": "1350804abf0d5165de525ba709b34bd4c77f8c7b11f439e46ef1c78d57dfc8f1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalWIndices.lean",
+      "source_sha256": "1937afafcfe0e1591973ff4ae826619efcafebe5ec614652c7d07f9736d47eab",
+      "port": "module-port",
+      "submission_sha256": "02f6ac2683637efee83d04fbab4181da295b62683e28589d891b1f4c59f37637"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalWRootExistence.lean",
+      "source_sha256": "5333cdae9509fc7675965c092a7b1f9c0f43a274a5c28903ced55f1f3c1fc4a9",
+      "port": "module-port",
+      "submission_sha256": "2d2f9d47f1c68ef81df445c12adcd716976b6d97a45a66b2b98dc75578592cb4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedOriginalWRootSearch.lean",
+      "source_sha256": "8cc695190d042dd00bf33bb763327536b1dd9a8609b714366972b37f9d12debc",
+      "port": "module-port",
+      "submission_sha256": "84a63235f418da8d028975078f24f8968a989c1732ea4ffaae5c8b14bbd296bd"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ComputedSignedHeadLabels.lean",
+      "source_sha256": "8d602f93d1774f3a3d475626a90f2b3609f07cedfbfd935bfeb969fcbcd9b0de",
+      "port": "module-port",
+      "submission_sha256": "3321de784664ffce61011966edf1a979347d72ca6061b0d8e17562027161055f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ConeWeights.lean",
+      "source_sha256": "91daf29a53008ed19e4f4573ab2028c5df10070797d10b5cd78290480fb3eaf9",
+      "port": "module-port",
+      "submission_sha256": "51a6d4d968de7a048077527a23c03ae2ce0b13b264ce8ea2df0dac3f55044107"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ContinuousRemainderJump.lean",
+      "source_sha256": "1963bc1033bcda92974af3a7ed45dbc7efa7afeb116b3d6c2273eef4d07b5c41",
+      "port": "module-port",
+      "submission_sha256": "62e71096db8a9c9e91fc87c5f5316dd56e619056d3fdb2b3392c422c8cdc322d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CoordinateOriginalElimination.lean",
+      "source_sha256": "deb98b6eb652a3b186108fcce7698f02228a702d7fc56654c092e84cad531e5d",
+      "port": "module-port",
+      "submission_sha256": "6e46f56607c379f1441cfdafbfc5c594011ec90f5ed27efa9af6911ce1668435"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CoupledCompactOriginalCarriers.lean",
+      "source_sha256": "7c5600ceba47bdc9dee11a1df9b8c6ab27f6956f36a29e76aa12094577b0f892",
+      "port": "module-port",
+      "submission_sha256": "09e43f70cc886b4a31eb084222930a140be06728b7ba2b6281f91451eb0b7600"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CoupledOriginalParameterNames.lean",
+      "source_sha256": "4c2fc4ed7b222233b4cced1f971c58d45942f16a5bd6a5c6ea5788254cef9767",
+      "port": "module-port",
+      "submission_sha256": "ba097a0c6b2080473c394e929fdb14249da59972f537815e56fa1cc19829880b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CoupledOriginalPrefixStability.lean",
+      "source_sha256": "3167929c937ae75ba782283f9014346e3d48b06eced1ff73e49f00ab9fe275fd",
+      "port": "module-port",
+      "submission_sha256": "e015f9db3d583ebbd191825f474d32edd3eb194f1be752935a26ea66997f225e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/CoupledOriginalRootExclusions.lean",
+      "source_sha256": "87df27449968937f176819a19ee0de5dafb21382bdc665cf5500154bf6d432ea",
+      "port": "module-port",
+      "submission_sha256": "ea440116b2272f5907867ad6a8cce6e36786b5c265bc23db3e5267aa093f8ce9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/DampedFourierIntegral.lean",
+      "source_sha256": "b7b4ee70f7db27a6813330c7e1f4cb5b93db90b567f2b335bf7a26239e5ff4df",
+      "port": "module-port",
+      "submission_sha256": "8f5013fc333d7a57f2bb234277496de4fb2a7a9ea11123882bb6e316e571c153"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/DampedSpectral.lean",
+      "source_sha256": "9f24e0945e73a1e568fa9606e2b97e0589c4ac8cd4989ba0a5d6264ef99becde",
+      "port": "module-port",
+      "submission_sha256": "9a15adab36d838bae0508d8956ed2654e316b1670b5e409d1a927f6125f4d7f2"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/DampedTubeJump.lean",
+      "source_sha256": "4d042c7af31826b11a9b13488fb0398386f79787303a63e91019716b3b0a3c10",
+      "port": "module-port",
+      "submission_sha256": "0af1b76bfab1675cbb8d54ded45b8badf24564627beb1480e7af28132fb897e3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/DisjointOriginalParameterSlots.lean",
+      "source_sha256": "e61414135539fe15c927e005e68b595a253a49a09cf045acacb6f5e4466243a3",
+      "port": "module-port",
+      "submission_sha256": "432e77948a11a89d931c0e07ca5d67b2957a49b076b499fe7b3612339812b0e9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/EarlierOriginalConstantNames.lean",
+      "source_sha256": "cc8e85cf2f91b50a32c58869f05b3a09d231c56dc974eebcbcbfe3c8e9d88ed8",
+      "port": "module-port",
+      "submission_sha256": "ea951bf82d2eaa0ea074dd410512f2edee48dd7d6d2b72689800936d15db1e1e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FaithfulLaurentFlow.lean",
+      "source_sha256": "3a07e2cb5018fdd49f4e51e28927d46b135c2646af0872bc1613e53d92dcac29",
+      "port": "module-port",
+      "submission_sha256": "320891ae34eb78c3bc9592d86ebab70254e74fa3486901e8a4db65801260b52c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteArrayNumerator.lean",
+      "source_sha256": "68155fd2c55e86345f3dd3c056d13227bc5ce33a1758494cd015d20c0f96ac04",
+      "port": "module-port",
+      "submission_sha256": "7cc7833f11d3ec0ca5321ca091837cca31fc4fa3164e49638c2dff85e11ba8bf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteCoefficientBounds.lean",
+      "source_sha256": "5b88ae2c813c1c1d68851fa3df8c95d93097591949ba80d315a6704079ec758a",
+      "port": "module-port",
+      "submission_sha256": "f2de87bfb1963e5478c2dc0dd372ee86b2a86194f5d5965e03094e27a8119753"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteComplexBounds.lean",
+      "source_sha256": "d0ccf0c0cfc2bd3a92ae03ba4b32a4eb336cd6015bfe0b00e7ca0deb8e2bc367",
+      "port": "module-port",
+      "submission_sha256": "3bac4db2fdc83d38a899da5b73a357b3c50c7cb0f67fa104a84f69fa8319e79c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteComplexDeterminantBounds.lean",
+      "source_sha256": "d8ce8bfae569c198b343b9cace875c21d0b19d09fc99f86c289faeef496c8895",
+      "port": "module-port",
+      "submission_sha256": "5580650d352d33d033902eb4f674e751d1eb3dd623c5c0bdd630a9e4b5735c6a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteComplexElimination.lean",
+      "source_sha256": "7604775d49614a147dee6f6965c79f62a8ee3d5e09debc1c69b008ac617a3d5e",
+      "port": "module-port",
+      "submission_sha256": "d03fee94a4a8ff9f1c7efad6e113db74cd598ed88cc59162ff2f431cc2b46ee0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteComplexPowers.lean",
+      "source_sha256": "fc0067256a526cfcb8775aacbc0cfb8def1839f637ae40e073b4e2cb089f7359",
+      "port": "module-port",
+      "submission_sha256": "3f1844fa96acd05fd989656a4091adc54b035640f7ff1fcf44b0f63550ba9eab"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteEliminationBounds.lean",
+      "source_sha256": "e03e6808e977fd8b24ba7bf6b7bf159cce5a7dd4ef615ef2af5d0ba87c87609e",
+      "port": "module-port",
+      "submission_sha256": "cef14d2d6c15b2dc5920135cdf4a7eb6f448b33a376222964e4ef88c0fc35422"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteOriginalCoefficientBounds.lean",
+      "source_sha256": "97e545cccca5d7ee55b102e5e0a998fa33c50da6b3b76f4d802e80e0c6e1f746",
+      "port": "module-port",
+      "submission_sha256": "45de67b1f87161f884653d84cbc5adc6731c8c249720a53a71cd1d78a0a4d591"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteRootParameterAvoidance.lean",
+      "source_sha256": "3915683402b88b2da382bf15fc6930242cfdb8dd6863b99f83acc402d9e4d296",
+      "port": "module-port",
+      "submission_sha256": "b2bbff99e142e8eec828f46ab1b86d850fa3baf680c4bd260ab34434fb6d687f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteSeriesProducts.lean",
+      "source_sha256": "595d1f7ef02aacdd93afae953a17b5a50cd1fff913d404347119badd7b40abbd",
+      "port": "module-port",
+      "submission_sha256": "4c4d7873130636f36307ac1545b88f67f06cd64af31fa99538488a736f17607d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteTaylorBounds.lean",
+      "source_sha256": "77ed2cbdf4efd6a4ebb0fed230dd0a72d2f3f32f550c709be4e09c658d87b3bd",
+      "port": "module-port",
+      "submission_sha256": "6bb06505fa9a562821227cf29d590ab15828b3f38d02efc7067af9f9238aa113"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/FiniteTaylorProducts.lean",
+      "source_sha256": "a0b584f6745c93ddc96699caf5c79361a257b7fb2954baec700b7cbf7edcd62f",
+      "port": "module-port",
+      "submission_sha256": "009cf2a0c58934725b0fa323262c4ea70da2b2f89f81da69b535576cc99871f8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/LaurentArrayAlgebraAction.lean",
+      "source_sha256": "0afd5ca886e929f58afa7e6cc4dbd1e5dd47442f0f74e3e84b4a19afe34dd712",
+      "port": "module-port",
+      "submission_sha256": "f30e0b52f1f7811c586d3a986697355459f4b4f966991961875f2ce798c4736b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/LaurentCharacterTwists.lean",
+      "source_sha256": "41d44d96a5bc500f510802a365ee3f8ef083b8340e3e8bd4fb11c99bdb072df9",
+      "port": "module-port",
+      "submission_sha256": "f886246d9573c13e93d646bdc0a3fb348639d9e93c3730efa7b44402c26627b3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/LaurentConvolutionSeries.lean",
+      "source_sha256": "b301569b95fa01d9b8a8487ceb0ec8204947036fcb45f66d5027ccf4f979bf67",
+      "port": "module-port",
+      "submission_sha256": "0b5fe0be42b868395c48aa0a21c37b528dac95684d4bc56a1534ed9b2b409bc3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/LaurentMixedNumeratorIdentity.lean",
+      "source_sha256": "394b4604f799cc67111621a79844bf1ce3da0fced64568011ffaca9af1111703",
+      "port": "module-port",
+      "submission_sha256": "2d46e4c082c8997eb6d005b9d35f0edd3fc862e61d7f52da477fb549f6cd311f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/LocalProductJump.lean",
+      "source_sha256": "aa33b29aa7e382937d10d947e5313e820e87fe160c3547727e50e5127cc032b3",
+      "port": "module-port",
+      "submission_sha256": "a7bf52f6ba062f80810b454bb7a8ff7fbe55d7b68dd69baf5002448a5c194481"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/LowerQuotientSeries.lean",
+      "source_sha256": "8e8d4a3b501163d876179494ee72e5aeb50291eb89aba1bb6de4fe647f8dac07",
+      "port": "module-port",
+      "submission_sha256": "c6f6fae99d97d8b67fe787d0a01601672de92be99fba281d0fc2bca732719da1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/NatPairShiftSeries.lean",
+      "source_sha256": "668cccb11e2c3afde2fb3086febb87b4a154d1e76f83d31ead22d08da5b5a648",
+      "port": "module-port",
+      "submission_sha256": "e42d2315694e4c3c8f9f1b1d27de01dd73f44db8f76d5e97268f8487e06e435e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/NativePhysicalGap.lean",
+      "source_sha256": "5b35205d4a2d2305b25cfce266355408f4b836b61e41273b3b03f8461f9e459a",
+      "port": "module-port",
+      "submission_sha256": "60f17aa48969fad2d7212a9117eb009e0ad6431ab735a131554c2e83f29b48a4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/NestedOriginalExclusionSlots.lean",
+      "source_sha256": "631070f390b7914f50901656cc61d33717d875317541fa8f72ce854584007421",
+      "port": "module-port",
+      "submission_sha256": "edc02c0f1e4bb31af979933e8f58ab32956941a248bb5ef2beb1b0f2a8f96aea"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/NestedOriginalParameterLimit.lean",
+      "source_sha256": "65cf6a3256253ac7c5fe278c9d4bddbe7392364589ef17e1094a5955310da1cb",
+      "port": "module-port",
+      "submission_sha256": "44bd4a4d5cc8f14685a38539ec64b60f65a60974cc9ea89c6c277510e918e8d6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/NonPoleProductJump.lean",
+      "source_sha256": "213e22e126e4f87e2287e7063acee54d5534d02141d12230d68aefa26a9aa040",
+      "port": "module-port",
+      "submission_sha256": "21af55ef21c8c0138d30e1f816be0dbcd7c86cbbd7a30be7d36d66d04e700725"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OrderedArrayUniqueness.lean",
+      "source_sha256": "a9684d3610cc11dbdd5fb3a81589a667f37f44ceded92b11f87a0735658a96c5",
+      "port": "module-port",
+      "submission_sha256": "cde15d4717a38b16266dddff60fa6ef5c13e8137c3a7d8a66fc4ae1d70eb6425"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalArrayEmbedding.lean",
+      "source_sha256": "d69a7a0766d8207063b355c6a2b588354ad427e2c185d1067da94c4929b19229",
+      "port": "module-port",
+      "submission_sha256": "d66ed97052be11940d0005ed39790df46a3aab26f0f15c17d6b190b3b490cb49"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalBlockProgramStability.lean",
+      "source_sha256": "85108e4e9b130ecf5804df1bc41ca5276c911c81e288e33c9323a98ad72b554f",
+      "port": "module-port",
+      "submission_sha256": "d9b0a26baf30a70acbae3df0200031f2af64769a16590c7579513480f511f85c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalBlockSourceStability.lean",
+      "source_sha256": "f387649420665bfc537631655478efd64d61b70e480dcd1db8695dc8e32fd4e3",
+      "port": "module-port",
+      "submission_sha256": "1f61b795de711a6014e3149baf07c333aa6d1c98ef235847944519233d54b533"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalBoundedDivisibility.lean",
+      "source_sha256": "a4b8d6e65ccab7fc89c230492075562b65b7ceeb1f042ac45d6c2968f87abeb6",
+      "port": "module-port",
+      "submission_sha256": "099c87be5f31c50d623d9d3438ac863909e4933d7a4bd2deb68910dde254678a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartBounds.lean",
+      "source_sha256": "accabeb650db4514ce230c07f3cb8b02fc388dce8ccfbcaa1b7f69911721706e",
+      "port": "module-port",
+      "submission_sha256": "a8fc3d0487dedfcfa653b3e3ae70a711ca9545bc9fa5891519e9b56494b817ef"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartCharacters.lean",
+      "source_sha256": "a96358b6922cdb0b926d19c848c2c457fa1cc065c08422ee6019d66d947ffd2c",
+      "port": "module-port",
+      "submission_sha256": "1107702fbe5af4487155c5e4195e72925152361b7e0730c755ff30bce651b41d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartHomogeneousEvaluation.lean",
+      "source_sha256": "7bdf08672a5808b609dafb980e09886f16b61b90e906ae6755fc3346d658f93a",
+      "port": "module-port",
+      "submission_sha256": "5ad2f23ccd9b979f47977434f4a69b9851fccd38e7f83681d91ab4dd705b9f9b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartIndices.lean",
+      "source_sha256": "4b095276fe6dba65b0d4a78b4c570f095278c43e0f7a6368ef90af80c590d9f5",
+      "port": "module-port",
+      "submission_sha256": "11ca2f7f9f4d17b5bfe4ab0ef062b8cd6addef487dce638750e26822f8798377"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartLaurentFractions.lean",
+      "source_sha256": "33b3c2867e068633c886286e514ee65aee2cf6601de3179771ea8fbebe62a7d0",
+      "port": "module-port",
+      "submission_sha256": "c98f0f4a6a91a2e8d8c4ee684e76f4e80f425559007cd89af5e770da0a4e2609"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartLocalTransport.lean",
+      "source_sha256": "8843665b59f76d7c2e2a787a85b00d0dc43ac842edb25155986de3dc82054dea",
+      "port": "module-port",
+      "submission_sha256": "44d542c60db7dff1afb905b1c8fb5dd7599288776440eb2fdca75c825d7bd92d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartMixedIdentities.lean",
+      "source_sha256": "403ad55f5b81ef6f4e9e10f9cab5f2e51603ddb16f7b63c84ebf019036d63a0f",
+      "port": "module-port",
+      "submission_sha256": "f4c62a03e57df52099eed5f3b1fe481ee4cef482d125ffbf4d40b7d59d7ded44"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalChartReflection.lean",
+      "source_sha256": "f4f703401b64373bbceebf359e6545813e03e4a564f256f6f356ace891f356cf",
+      "port": "module-port",
+      "submission_sha256": "f6256b6d5000043e25bf3386418bf965cf346313090db60994269bd0f9e6118b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalClassicalAdaptiveRadii.lean",
+      "source_sha256": "e81b012f09b11d744cdb22ceefb608bb4643a35b01cbac7d8664ea6ba09e9380",
+      "port": "module-port",
+      "submission_sha256": "1442f06bf1ac52ff24086ea7a9b4f693bcb38655735db97433baec59b3b95a03"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalClassicalLayerExhaustion.lean",
+      "source_sha256": "d64a655feb3a2fffef380a724cc7f65f062daa8ad03035983efb489aa68ddc8e",
+      "port": "module-port",
+      "submission_sha256": "b3d5ce1907c3206fd6454b356168f5965d615b4a4d047fe2b3f2495838417975"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalClassicalStrongCountable.lean",
+      "source_sha256": "8fdad393d1e8df38934fc83121159646fffeb93cfd3fda89eb7286bdd4f5c27a",
+      "port": "module-port",
+      "submission_sha256": "571150f3a035f65bead7de3f3ed1e366395eb9251073265c8e249044924e24e8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalClassicalUnitExhaustion.lean",
+      "source_sha256": "b7a5596f79da2cf1e7f259fb68bcf368585827aac4014c02b9ab6cc4039087b6",
+      "port": "module-port",
+      "submission_sha256": "5333a1232ce497c0cdc3d027c9656be53234c68c2e7857c896d86c41abf224b5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalCompleteBasisBounds.lean",
+      "source_sha256": "461d5329827cac372ddad43cb97c00688b31d1aec7f9df63581c145fd7ab0b34",
+      "port": "module-port",
+      "submission_sha256": "24daa9693d641d6b15075b2edcd4e79a5273882f076e9e51b0825b252058a3ee"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalDilationCoefficients.lean",
+      "source_sha256": "4b4f81ce918290fc852ff4f4fcd0a55df11228ec550703adcfb50a92bd61d621",
+      "port": "module-port",
+      "submission_sha256": "e87daee8cf87ecf9f780b106cbc88a42909a05f40092a1d37026a5bb37f4300c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalExclusionEnumeration.lean",
+      "source_sha256": "f9054582d78ff391abdcb97cfe98467e2594e4c1d4264d782406229a06bc97ee",
+      "port": "module-port",
+      "submission_sha256": "6fb04d50327444628767be6ca7ad0406b41aae08dfc9f58e74c13e0e76430be7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHeadCornerBasis.lean",
+      "source_sha256": "f7030c31da1acfa976787d67dcc8f07c1fad136dc3cdfefe78d00f3e203b126d",
+      "port": "module-port",
+      "submission_sha256": "b68e8707a015a0edaa965a1a13d7093dcd738ebcff809105cc859cfe3af9e768"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHeadFreeBasis.lean",
+      "source_sha256": "2e3ad7b8481ce4fb96a87d546b2917aa77d37e4b6efc65db1188eddddb4427f5",
+      "port": "module-port",
+      "submission_sha256": "e64e89ea90bdaeb12b0714cded95f3eb9523bf496cac8540550e2805a53d515a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHeadGapBasis.lean",
+      "source_sha256": "93ecbd277c805779765aa4990fbe229506a7bff43d0aab9347768cfc920ef075",
+      "port": "module-port",
+      "submission_sha256": "d0e01623e3af94fdc7dbbd52cf680cd9f45ee0b011a6155f9f6a48d6e0949aa5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHeadLabels.lean",
+      "source_sha256": "27269eafa3d2767c591ae8d0b31fc526174b3e04796cd5107b4126f5342c3067",
+      "port": "module-port",
+      "submission_sha256": "9c0dc71c150588327ff39600875794ad44770ea64ec24bbb80e8fd9531f74de6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHeadProjection.lean",
+      "source_sha256": "e0c23f7e80c380ddb6e2e613c266427cce51ef3abfdaf6f506d550656590003b",
+      "port": "module-port",
+      "submission_sha256": "fdfc298078ce61099d8a29e8bf2365c06c5f0d9fd04f674ad6e5fa5121dea86e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHeadRank.lean",
+      "source_sha256": "c21a6fc8fbb288b5ca53fdb4049450c47f8217194aaeb229e185cb63a0353788",
+      "port": "module-port",
+      "submission_sha256": "b3ef5f8c6da0c0b0cf1b2d8c67a5fc73b9bc427922ed33c3cb72103fe84b06e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHeadTriangular.lean",
+      "source_sha256": "9c46dfc15457a185aac32851fad33eb83e0006224400beeea6285f0c0e43658a",
+      "port": "module-port",
+      "submission_sha256": "3c96bfbe4a31b36a504e336ff5ee3397d14e8d54f92834d23295e799bc042657"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalHomogeneousPolynomial.lean",
+      "source_sha256": "3544df95eaef03cdeb9c7dcadb54f1a8e6d76458be82229f030cd6afc0a7b34a",
+      "port": "module-port",
+      "submission_sha256": "91a76dd52a242f82076823d96066b52ee300deb2afafbf25c471b62245fb954f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalLaurentAdditiveGluing.lean",
+      "source_sha256": "f428dcb0490a972ab4497dbd3084fc043d24683e204db243c4dbb2bf4d6b92a6",
+      "port": "module-port",
+      "submission_sha256": "d1cfdb42ccf8a78bc1ca90b12269992fc920771d378a7a59584313f6b313a985"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalLaurentOverlapBounds.lean",
+      "source_sha256": "133e3f930889487ea3dd399c7e540c436f55d68199b1686b56da2a92da7a9fec",
+      "port": "module-port",
+      "submission_sha256": "ea41389e56bfa345385b10a1c6c99fe9df41b06c06402390fc2055c4e860ed26"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalLaurentPositiveClearing.lean",
+      "source_sha256": "ee60acf73f89cc1e1adb1e5ea3e9969dda88ce0c96115fce843f57a3ecd5d2d4",
+      "port": "module-port",
+      "submission_sha256": "90ddbcd69ff309897b3dbeb1b8ec595a56a7931c74faabfc30ebf7d84951fb62"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalLiouvilleMask.lean",
+      "source_sha256": "3aa99a521fb622592cd6c7a4bf56b90c5e6bb1573ebfe30849762b0265f7058b",
+      "port": "module-port",
+      "submission_sha256": "a93fba7012cde72706346e48b7805f81dda29b1601d046f193f1e890d6a98ae2"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalNativeLaurentTransport.lean",
+      "source_sha256": "f58a2d401bab8a1d16990b3c2e8a748bb75fa4daa6e70d9b24d56a9e8c118389",
+      "port": "module-port",
+      "submission_sha256": "954c1102397398df03dbe1bb3e38d2b680e1c4086424de6592fd1a8e808e44e2"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalNativeSlabDescent.lean",
+      "source_sha256": "f657f41db442423e0e648d96481878184a8e98adb1ff6a1e59f4211a984d1c0c",
+      "port": "module-port",
+      "submission_sha256": "42b5b46a20550227e9494a96356e92e63ee0a622f3d58c72818fca0d667b0716"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalNativeSourceAlgebra.lean",
+      "source_sha256": "0c3a74888dd914d69c1d5f6380bfa2ad55e342862971b23c65db67b43aa163ab",
+      "port": "module-port",
+      "submission_sha256": "8bd195500082aaa5e33f4c249612a1fcc477811598afc1494b99aac6bdd2f101"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalNoReturnGeometry.lean",
+      "source_sha256": "e911d1159d3724cdc9261a12310d282ab38e187806a8a509febe904ad91edeac",
+      "port": "module-port",
+      "submission_sha256": "e66c8f5bf23a9c898e27c6dcbfbf83dcbbd1464a5a482e6b0551461e3d46b875"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalPairNumerator.lean",
+      "source_sha256": "103a0506879aa91a9abf8eceb7aaf72b34a139ff7b666ee9590f363e066c568c",
+      "port": "module-port",
+      "submission_sha256": "38ad3ddaf90d6cf39125527665c267a4bdcff04333d093564a46bc30451917f6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalParameterNameValidity.lean",
+      "source_sha256": "32e954d9fa035d7113efe2669caa747fc7bbfa84963bc448440f0aae10422903",
+      "port": "module-port",
+      "submission_sha256": "800e46019e6b75f655df1c21c7545edc79c77ce78433d1b62028574f3bc9a6f9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalPhaseAnalytic.lean",
+      "source_sha256": "e31e697f8ed6ff0a5c5d73aa83840da906a1fa30ea12f7dd1388aed347751bcf",
+      "port": "module-port",
+      "submission_sha256": "f650b738247344435ad413bda925f5c55082d8409658f2b4125318115638c7bb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalPositiveIntegerCoefficients.lean",
+      "source_sha256": "d7f443e9fd4e3048e8e8c541922c0123dab2460e511a1ae26a6a3874d2410742",
+      "port": "module-port",
+      "submission_sha256": "bb75e468010154cc788066480bf7bde342804d0d59ae24762a7ba21bd20abfa6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalPositiveMvPolynomial.lean",
+      "source_sha256": "445cef15e7e014e3074ca323542f0aba1f85f11858ce35c360203d8626c74045",
+      "port": "module-port",
+      "submission_sha256": "0109266b097a04516cc9e19134318dc54f0b9887cc495e280996091d44ac0775"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalPositiveOrbitPartition.lean",
+      "source_sha256": "56bfc1c3382292bda0eb345dc59601047a1bbc077898c15835ecf55befb179dd",
+      "port": "module-port",
+      "submission_sha256": "f4dfbbf4d15d224172580d3c2d0bbce00d76297c82dac7cb5576b408afd2255d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalProtectedWindowHistory.lean",
+      "source_sha256": "065d617545935b05b3dfbce470fcc024bd2c588cdd094f51ba32a691bfeb1283",
+      "port": "module-port",
+      "submission_sha256": "c4eed9a4b42d112063d7b7cf7a10dd00633e82a7dab976d42ba9de9afe338c09"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalQuadraticSpacing.lean",
+      "source_sha256": "7a9af800c002c7b3f4ed4fcd0f161fa4561836509448c5cb21fcbeeecd4696eb",
+      "port": "module-port",
+      "submission_sha256": "6bb7504f7af59fa1764aa85437df1ed74a20614e2195a390f4e8e79fb5ae46dd"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalRootBaseExclusion.lean",
+      "source_sha256": "bbb40e534ba8bb5f03ce181dce37941ca20aebd875eb73472d4e2047b57fd40f",
+      "port": "module-port",
+      "submission_sha256": "5a838c1e5000e0a10ff6cfd51d94a4f28bca3829abb90e2bf1a6154f5d8fc126"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalRootExclusionBounds.lean",
+      "source_sha256": "e6970d27315870ca47936fa2d2c00b35d5a8b1f6360bea30ae3cf2c2bb03237d",
+      "port": "module-port",
+      "submission_sha256": "1f391c9bb3200adb951b4c02e10be04f77a68fabcd10eb949a93186f350da76d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalRootImplicit.lean",
+      "source_sha256": "2552c69e2208e3863fd4937613f078cc7e58fcce0bc20544025066940964b52c",
+      "port": "module-port",
+      "submission_sha256": "b2a63810cafdf53708c7ace84300b20fd791105ed94693709e830e6aaf91f3f0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalRootMagnitude.lean",
+      "source_sha256": "21fbe24f0b516d61c95695bc9a698ecaae3a18c345322f8275fc7db14555b2b5",
+      "port": "module-port",
+      "submission_sha256": "2854ac5fa1919ccdb6565c9e9805c9c81b444f9548c71f97cd5115164491f758"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalRootParameterExclusions.lean",
+      "source_sha256": "0800a7b24bc6c5f48479e69c63e52a373acab36e4831385080accdae12ff8cbc",
+      "port": "module-port",
+      "submission_sha256": "8b3e61b7ea868d3558e265c581fd8747f0b56fcfc467948bf8a766c7c2eaca92"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalSeparateLiftOverlaps.lean",
+      "source_sha256": "c46dbd123c556979074fe0265de7608a1ea36573ff78d35adc9d7213e3784289",
+      "port": "module-port",
+      "submission_sha256": "ed8c3a1f733ed156df2649e008794bb775bdacbebe947b7610e4489cc0334600"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalSheetAllocation.lean",
+      "source_sha256": "51b81dbbc5c07c779ed0581ee704d7527b0ce1ee720f3363b4a18339c6a97d1b",
+      "port": "module-port",
+      "submission_sha256": "829e7546c6d6b48ac8ab2f3d59c39fb0d84acd3baa581de49978865e111ae222"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalSheetAssociates.lean",
+      "source_sha256": "baee775b6a3acd944912edfbd05d435e6e9a696b2ad21e75db89cdfb25d7acbf",
+      "port": "module-port",
+      "submission_sha256": "98f50dd17d2aaba145f835b57ba4e0473a0824f13ff2ef5368c56206e8c1c407"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalSheetChartNormalization.lean",
+      "source_sha256": "831ec79961cf5d7152c53a15117ef47b951b1fc5faadbfd8849c8d9b6471b2b1",
+      "port": "module-port",
+      "submission_sha256": "cddf3b6e3735842f81303ded49a008714abcbe6a6578cf1eccd1bf64743b21f9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalSheetPrimePolynomial.lean",
+      "source_sha256": "67727ed6d8b6cfb388d102a1ae28091a357fae6c784c02488e5a9c150df3f441",
+      "port": "module-port",
+      "submission_sha256": "876bae47faea08f6adbd5cf65557d8668f4912b9ce8b7b3146e8712fd96153e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalSlabPivots.lean",
+      "source_sha256": "70f8087446e01fb0e973505cae18f1a4765a65f093667d821af2abd885484fc4",
+      "port": "module-port",
+      "submission_sha256": "c67305694e18b4b7603cc81dcfda4d909fdd4cdc8647092056f852798ff2c4c6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalStrongClearingRecurrence.lean",
+      "source_sha256": "ce1074ba525b1045f2b74a2945309baef336f8782bc85fc9e2961d96ea3c4cac",
+      "port": "module-port",
+      "submission_sha256": "bdffb493d0df909427dc2584621e54d044cf31209c24627ea3ed0c9d6e903c99"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalStrongNoReturn.lean",
+      "source_sha256": "bc9420c1d8bde947f3f5435ee294b0738dc4c20f117eba209d68b9f8b3d2acfa",
+      "port": "module-port",
+      "submission_sha256": "3195e4e537ed8045e8b58a41cfaa18be68ccec7c55769f276dccd73950e57491"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalStrongRootClearing.lean",
+      "source_sha256": "f4d7558d5cd629232ee4d4a89abb5a3e063b98110469c12f0454ce35de260938",
+      "port": "module-port",
+      "submission_sha256": "853ac9ca508c32f810a98454e7d0b14c377ad03c0ba459148d51e6e9cb652237"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalTopCornerNormalization.lean",
+      "source_sha256": "f28ab7124669ab8769a373be9165f142511d588d9797fd435cac68d01c64abaf",
+      "port": "module-port",
+      "submission_sha256": "0d74db69d82b293d4020ec406485c7b573923e91b7ce5cff7deb87aa9537dd8f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalTwoQuadrantNumerator.lean",
+      "source_sha256": "faceeb3b696c35743353b6f9bddc8c69ff77af187f80a8f1c8615751d7415bf8",
+      "port": "module-port",
+      "submission_sha256": "3d400812ef1debaede7203c482714f09516904d761f5c7ecbb0f6e298d769077"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/OriginalUpperTube.lean",
+      "source_sha256": "e819fa183d1de4fb3fdcb9376f6433538c1706e8d205914dec5fe912a9396636",
+      "port": "module-port",
+      "submission_sha256": "88cce3743eb4c62e4434ff398d2feb26daccf055b51dcffeb7c6a4e6058c578f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ParityBarrier.lean",
+      "source_sha256": "92f014345c846c243d0e47f6e78e0893ee1331468a73dd156ef3793a47bf5431",
+      "port": "module-port",
+      "submission_sha256": "4c5fcc56ed19cb4da44a97bb77d662b5966dd138398514873d8e047c5bafe434"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ParityContinuants.lean",
+      "source_sha256": "b465623298827c047d5eb1734cd1e023baa45f66832b03cfce7df86c034b4db0",
+      "port": "module-port",
+      "submission_sha256": "29e65033fcfa6ca26ed350ff20747545127d068aea7759219d8fa13f40c6fcb1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ParityLimit.lean",
+      "source_sha256": "f266d03075db22ea838d99e7615e0506f6c39a00d9c5ce03a3357a3653d2456c",
+      "port": "module-port",
+      "submission_sha256": "c6ea1e2a9c645e376a2b9dbe8fbbb7d3fdc857a17d29b848070d67f1f938afd1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PhaseDistance.lean",
+      "source_sha256": "873217574cf7c96c9db2dfa09f6586fd7d24a1fad91a79cbb86f1143a61a1a1c",
+      "port": "module-port",
+      "submission_sha256": "7d93a6e3073e60764aa595a9c9d90ac227b19ce393e026bdc0bdbc89df3baf6b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PhysicalDistribution.lean",
+      "source_sha256": "aecf6ec64c8bc28e1e06b445e32a1d63de5e40b93e2844ff7542aaf71cb6bf75",
+      "port": "module-port",
+      "submission_sha256": "369fb209f4af006b2f3189c9685af821848eae72878b015e6bc7c53226c7dd3a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PolydiskBound.lean",
+      "source_sha256": "103719c747f2cf751f8661b012a659b4fdab7afd2e610881916b34fab3aaaa92",
+      "port": "module-port",
+      "submission_sha256": "87b4f152c587486c1301b2de45ced33474b962df7cdd3b13639bed62814a79bc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveConeClearingGeometry.lean",
+      "source_sha256": "93f8bdb7d6a02ee1a49a279a108e15d0ee22a123ee843b384417dff2a14bc43d",
+      "port": "module-port",
+      "submission_sha256": "9364b0b9311ea971b9019b485df180cac72b5d6dc6965624e65b8f2472534439"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalCharacterTwists.lean",
+      "source_sha256": "7478bac6cdaaf13931d7d736bd80d399c72d798511369a79b5a619ac646feb22",
+      "port": "module-port",
+      "submission_sha256": "cbadcaa1cf2ba03011f8cdf67fc7ada2b7787eab97cbc990f8b1d88b4b387c06"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalFractionCancellation.lean",
+      "source_sha256": "de82a199bc9d65c82ca64f0965287923b76de67ed8295fbe721e8240e19843b7",
+      "port": "module-port",
+      "submission_sha256": "4da542c1d50d71f16d27952c44f9fcae199a6344ad990bc28f116f93e316ecfd"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalGlobalSplitting.lean",
+      "source_sha256": "3089bcd6a088e69d73ff1c3a88428d13f0b3a1adc28566a30f934619e510eca6",
+      "port": "module-port",
+      "submission_sha256": "de66f02363234dba6cf6d2b450632c3d8f4aec607ddfdbeadbafc2064dff8353"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalLaurentEmbedding.lean",
+      "source_sha256": "4c4c62914e44024f112ab59edfdb4dc093a357acecb5c8c44d92d537850a4fe9",
+      "port": "module-port",
+      "submission_sha256": "29b764140339814f09f27bab3459291b427c5a99acf279ff48e483c479926376"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalLocalSplitting.lean",
+      "source_sha256": "e33247eb93973cb34a8d0b634e7f75e340352ac8d4982d629e69317ae05a5704",
+      "port": "module-port",
+      "submission_sha256": "4800d096fe9caedb628333a3089da61b83eec899b9ea9d3da4919274ff8bec3d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalMixedFractions.lean",
+      "source_sha256": "2382d4e6d1bd22805c6d561f221270711298d846a23eeef2f7ac52ac55b795cd",
+      "port": "module-port",
+      "submission_sha256": "35d02544c8bb624da861aaba6768ed18e9faec83fa21e952b2e7b837832210e3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalNativeDilation.lean",
+      "source_sha256": "d93d00f9d5cf815a813dcda8bfcf9da81d62b898fcc6b37096d13db481709bfb",
+      "port": "module-port",
+      "submission_sha256": "28e3a28d971ad47e670880e5351920835dc4c70f94dc0c704b9406f4ed16cc2a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalNumerator.lean",
+      "source_sha256": "a4497f7356e6371b330d6a53f6d2cf218f785d7a8edfa348f7be43a040e91a01",
+      "port": "module-port",
+      "submission_sha256": "2b308e9fc0f04e2c5eac38496668530dc64e149072d56620a3480c1652e102d8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalPolynomial.lean",
+      "source_sha256": "ae5dc7e0316e7b1eecc065cfd00303d2f1d3307e6dac897218138cfc4e97e3ae",
+      "port": "module-port",
+      "submission_sha256": "9a4637b7486b527f2edefd362b40240ee667ad4b70ba665b3913c58c05c704ae"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PositiveOriginalPolynomialSupport.lean",
+      "source_sha256": "6346a4835e20075fb02684ba02941e007bff0807244d7f6d16c36be932b9ac50",
+      "port": "module-port",
+      "submission_sha256": "abb5218cbd8b90d68d7aeee1ce8b7a4033be6f2a2eaa64ed6b55878ad562bdec"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PrivateConeDivisibility.lean",
+      "source_sha256": "94c955c1e70658f7c9325677cb10965d9ad12ea480ddc4c2e62faa8dfb19e2ff",
+      "port": "module-port",
+      "submission_sha256": "cb3f0742531d13220c83672e6a111b20a318232b982bb0e68892e39fb4ccb881"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PrivateOriginalDeletions.lean",
+      "source_sha256": "3a3d41559eed0945ada7c2323ebcb759f45fae8c0a24f465218325a485cfec6d",
+      "port": "module-port",
+      "submission_sha256": "de558d0a24b3b499fd0564a6f8c712fa332041d05ff2c102029d91c8d2fa6949"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PrivatePrimeFloor.lean",
+      "source_sha256": "5366496677156b0b7a17468de762ce32aa44db268e718a913e42a97c357b182a",
+      "port": "module-port",
+      "submission_sha256": "edbad03458b3c78dd68969181f5e0a16cb557da2158d4887cd90730681a16297"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PrivatePrimeSchedule.lean",
+      "source_sha256": "16341e32ae8790f72645440402e6ec311eea2249009dad545c606a0eb476c116",
+      "port": "module-port",
+      "submission_sha256": "45ea38a823414348068ecf24c9e1ddb9c840947114ac6f51c5157f9698be9e7f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PrivateReturnSequence.lean",
+      "source_sha256": "362526e531059e5f19f77c65054c6c30cbc6a9f247198cf0e5a7c3c4d39c1759",
+      "port": "module-port",
+      "submission_sha256": "1b2e327352296ea0b9b3b4a5c16fdccb587c4106908809cb2e8382342ca3e7d7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/PrivateScaledSpectralCone.lean",
+      "source_sha256": "44498ea0f5a80d760ac46d93b6fab0d3d758ccc0b918ecdb3f21be3e30af65f7",
+      "port": "module-port",
+      "submission_sha256": "e87758fac695e54a5686365c994fe8aca781efcb9023585f4a4ae39054df557e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductAnnihilator.lean",
+      "source_sha256": "a4901840c473fc7bc2c11b0047edb0bfd0eff7db33be83db8f86dd21e8ead2e7",
+      "port": "module-port",
+      "submission_sha256": "4ae584522fad2ca511aa9d4698b5c3df4f4d35ae41d53132d3a6b2e5b74a907e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductDeletedPairs.lean",
+      "source_sha256": "5e074c36bd1aa8b5630573f8000165d01403d14df655b540fbf2ab1ef0f90cd2",
+      "port": "module-port",
+      "submission_sha256": "a09bce3150cab900c9376b08947163734dda99820ba0b74f766ccbc7cd06a143"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductFourierPair.lean",
+      "source_sha256": "9355966e068564b2726ee5bfb9bc3759893813b07ac9d83ae22b948039ab412e",
+      "port": "module-port",
+      "submission_sha256": "dd5c75e932bbabaa39aef817ed5fba2c0e92b6b5509d6f3fcd7920337f433780"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductGapLine.lean",
+      "source_sha256": "a5fb1d3633f1db4d1a4485c96bf0996335252af123831c8dbec1ed7782e25ee1",
+      "port": "module-port",
+      "submission_sha256": "6162ed5f7c94b94907b8f060fb6343fdadb413af93a69b05c9b634d9f9c55932"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductInverseNumerator.lean",
+      "source_sha256": "a333b41cd4b306fbcb0e436a0864230b89ccb0e272cfdba2bd62313590a8d631",
+      "port": "module-port",
+      "submission_sha256": "a14864f7953911084f26c1755227ca4ee126d233e0379342823a9a90c5bd62bb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductLaurentSupport.lean",
+      "source_sha256": "55a7483167bfe32c14bf4348e027cc1507739c29a38092a9eedf50bda86cc7e4",
+      "port": "module-port",
+      "submission_sha256": "b52a41eb7ae45b831047db527664ae15f2fa85260e6bffe597b256239ef1941e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductMiddleGap.lean",
+      "source_sha256": "c8f852b8e12147a7b432eb7f66f8c0d6e0896b683aaf71e9ffcc06d620ead6e3",
+      "port": "module-port",
+      "submission_sha256": "12df577968f59fd2b75a6a35fbdb0737a630390bb2c2a248c22b9a60746c8ffe"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductNumeratorSlab.lean",
+      "source_sha256": "f53242cb42433ba04468b9fae687c8a181881b9bbf57a3247d637c3da2c988a9",
+      "port": "module-port",
+      "submission_sha256": "8906320675673f53b295de2dbee099c7e2c5b8df7aa2bfa9e0f65d335048bced"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductOriginalRows.lean",
+      "source_sha256": "473d9ed661899bd5e5f1941414cda715e58e358b2a6b5488e428faba606f80ef",
+      "port": "module-port",
+      "submission_sha256": "fa5a3018bbbe0f933f564843d601f284a60e48ba5aff7300f991bda9a30ec56f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductPairClassification.lean",
+      "source_sha256": "c98e2cf70ab1a5fff8a8421b7bfa99c8f587f4422c2f43c55d3cc96d8c051add",
+      "port": "module-port",
+      "submission_sha256": "84a6e5ca32b6d3d2479589721c07b269e6f8dfcbbc969066bd136aeb2a2c5ba1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductPairFiniteDimension.lean",
+      "source_sha256": "7ac708dd65dbf91004c081969248a912f597d26751f6ed9455e05ab46be61a7b",
+      "port": "module-port",
+      "submission_sha256": "84d046b52716eb246a21cc85a5d90353c41e7cebb378ce823ee0a6262658aa74"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductPoleJump.lean",
+      "source_sha256": "50071408976cb470fb14ffa57941a33f2f67c25d3805cd88f0e23fb6ed564e65",
+      "port": "module-port",
+      "submission_sha256": "26e00af0692d8f221cec9ea8c8936028255d522034d8f30b6c1a44706fe61535"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductPoleMass.lean",
+      "source_sha256": "513c4eb5f30c5570f487b6f3c91854b8346a61d99c93b68b6a0ec802dce04b4c",
+      "port": "module-port",
+      "submission_sha256": "95c010becf1b385ac20c5545cd60c7bc8913c8b613f2ccee0ec04af311f4cc59"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductPowerSeries.lean",
+      "source_sha256": "1fa2db1bfaa3ae36de807990c4b32512209ed273580fa82874b169fbf9c17264",
+      "port": "module-port",
+      "submission_sha256": "f43bc0a467ea7c1d9cc50e314c60b123092ea59e8b9c72271e9b8dd038c5f491"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductResidues.lean",
+      "source_sha256": "3b723d254b25f19004251f5b69a4ea0edb55f2ce3ea852a32c7e61b4f79bbf79",
+      "port": "module-port",
+      "submission_sha256": "6b6af994f3ddeedbcbc355e32a778af4233fce4ced8dc93ca4c2f7eb546ffd31"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductReverseNumerator.lean",
+      "source_sha256": "774c763451840b6290ba8457f00111ae1a31f47c5b78457234dee4c53381c55d",
+      "port": "module-port",
+      "submission_sha256": "d1059c2ded8a5c851ea58532f0e90ba5fb8f883a7426f5a29ea8fe9d98bd8197"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductSeparation.lean",
+      "source_sha256": "521292ebb1a759c10eb1d96af708173277fd028c2a5114daea1eaf6bf652c633",
+      "port": "module-port",
+      "submission_sha256": "48b3ae87b7836a3120f77a3ec0dc5a9a76e40cdb016152b88b41ec2116713548"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductStrongPairSpace.lean",
+      "source_sha256": "dd53d5f782925818af19c55cd56dc4715123315db4534755a3decc5efde7526e",
+      "port": "module-port",
+      "submission_sha256": "6a99ed60c2d7f14d2231d3a40b9194928d0207454f9c6d779c9e6496fd6f22bb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProductZCoefficients.lean",
+      "source_sha256": "6b00a5b0c8e425efc8964fdc18d6e9de62155943cab204436df9e963a9efcc8e",
+      "port": "module-port",
+      "submission_sha256": "c48708a9bfdeb3483afbdd1257b473626c76768dc2afc689d3c700b6fcdb3aa9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ProofOnlyExclusionSearch.lean",
+      "source_sha256": "9afffca7b478d63e130425c0e7dba5e86536411b28f63e3594903ac82ccf6d65",
+      "port": "module-port",
+      "submission_sha256": "c2b6bc965ef9d37049bce87675e36370ceef8d4658777888aa922c6239b26ffc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/QuarterPhase.lean",
+      "source_sha256": "a9ff5b6ed1b79c16db8b7b6966f18a8baffec262264da4c50b946c58d7bd10a0",
+      "port": "module-port",
+      "submission_sha256": "83446d731cefac4a4831569ad878bd930a7aa8f25bd3e27f975825c2d20a700e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/QuotientTubeSeries.lean",
+      "source_sha256": "d4d88f0b9ada6a099ad49a54780b25ad9d701a4b7629752fedd852d31f84621e",
+      "port": "module-port",
+      "submission_sha256": "af2833a6a5ea2a04de73591c3c7734cf81959441c508b2d6d7db50702cff55fc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalArctan.lean",
+      "source_sha256": "5a486a41e942d9ab20f4b43ec0591ee5644f15cc905798edba713fcd763d133c",
+      "port": "module-port",
+      "submission_sha256": "07dae4ff4ff7f7d630b34d3ddd3e66ca9ee834b7f80236ca55171e37d3ce50b5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalArctanPerturbation.lean",
+      "source_sha256": "0dada3dfecf562e8de73ef8c9ac1a987de4a0fc553945b82189523ef93423520",
+      "port": "module-port",
+      "submission_sha256": "56ff0b45f4426630a8398f0d2e08c1bd54b942a31e469b780ca4a2554908c94d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalBetaApprox.lean",
+      "source_sha256": "11df2ebb9ff772a4932c357174a091c701edade01462ec57be5acb061f48a226",
+      "port": "module-port",
+      "submission_sha256": "9d4a7e1d7f7ce79e9c8945b385baa42d1a858330f3e32678098f42b546540086"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalBetaShiftNames.lean",
+      "source_sha256": "aff0606eb5a3627e04b40e1e194ced95fc535f18f2fe1cc0352c58c2672604cd",
+      "port": "module-port",
+      "submission_sha256": "23d1a4d35aead28c74ecbdadd991430110ca60c6b650e90e319f9af0ae8bc40f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalCoarseValue.lean",
+      "source_sha256": "f521a7b8aa685a30658e38ee10f95bf42df4abb9c2b68f8755b4141d24607f31",
+      "port": "module-port",
+      "submission_sha256": "ba2efe03525c65ded6b717dd2fc7eba3e22ad6ed882ce9637c1201985c8eacb9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalComplexApartness.lean",
+      "source_sha256": "948cd6ff97515e891a7cbd7f16341b54ff6d5bd39deaec1843d2f59ed4809fb7",
+      "port": "module-port",
+      "submission_sha256": "9bef8dae9e0f89808f853ddec6af61a1096b064ac2f893dc23ac680e243a93a1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalComplexArithmetic.lean",
+      "source_sha256": "339b84b682604743439545f23c99b8097555f9c6a1bff716d1dc605780a55569",
+      "port": "module-port",
+      "submission_sha256": "3e32ec760d1df8f321dec06c5966edea1b26e7ee398cd4caa937296af1905f95"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalComplexDeterminant.lean",
+      "source_sha256": "b63b1e410603edc59ef3d9a1b97ec784c7e142867a12be2548fa8f34d37c2362",
+      "port": "module-port",
+      "submission_sha256": "29e2660035d23efc75c35c44d0773300f178cc116a3bbb8d56472fb85dfc4728"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalExclusionIntervals.lean",
+      "source_sha256": "d8b4386d0a1fe46392a68b2ce1058ab50d2f14c7d7321b4adf484cc42c00bd50",
+      "port": "module-port",
+      "submission_sha256": "d0a61276ed61a03581bbb7498bc8f0ea7a3d433450d1d5041ffe63be39d059a4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalExclusionSearch.lean",
+      "source_sha256": "d08701ceadc18e81a7be8493c9d373ccbb375cd64471b13154aa46f46ce03a87",
+      "port": "module-port",
+      "submission_sha256": "19f67c58de008f2d0f06926a71dbff3d54329005fb2e8873637353d69984142f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalFiniteMinimum.lean",
+      "source_sha256": "81fc7b5a455baddd299cf7d25a52e75a0afec3b948fff993cc4fa77aa379d612",
+      "port": "module-port",
+      "submission_sha256": "2ee2a46312b0e42cfc5aabfcc741fd9204e544432b945a7c9bdf3754f1936698"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalHeadComparison.lean",
+      "source_sha256": "37a94653bac30f201c20634b49c7071b8306967010190918ac4b6c54e2ba8ca5",
+      "port": "module-port",
+      "submission_sha256": "0ed9a9b7f812469402f31f5e02402f3521707593835890b18e08cb74f99b2b13"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalIntervalGrid.lean",
+      "source_sha256": "207042ce154bdb62a837130c19d3048dcc3793e1e5e591847afe91a43a86cd40",
+      "port": "module-port",
+      "submission_sha256": "f96c389b6e191430471e05525012e1a0ed2dd7261a0a14797cc1efa5d583de90"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalMagnitude.lean",
+      "source_sha256": "ada1c2b5f69e921ebcbf069bb021724e29b022ad01221bc1104c26a41abf1062",
+      "port": "module-port",
+      "submission_sha256": "7260cafef96f426f5b897755e3e2ba38a047699be200028bc79dd0e52736df08"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalNamedRootSearch.lean",
+      "source_sha256": "76fedaf6fb26ab55b7770cdee9271ad9479f07048bfa9b3190df08c5639741e9",
+      "port": "module-port",
+      "submission_sha256": "a80729eeb9564aba8fe1f7c3600a0affc90be50608f6f7af71c374981bf44b1f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalNamedScaledRoot.lean",
+      "source_sha256": "5acaab77dccf789fc7e3b9731d8fae0de06fee34bae6998898a618b12b37b9ab",
+      "port": "module-port",
+      "submission_sha256": "e93cad4610015f938507501355461743e3f5b5af0f73f779060e68b088f23bfb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalCoefficientNames.lean",
+      "source_sha256": "57fc870d9ded0041375770dba9da5de7419344f39de86b6c6d25a182bddaf50a",
+      "port": "module-port",
+      "submission_sha256": "974401f51329d8b4f2411d76df832cd3edc07abd9ccba6e658e6dd65fef51c38"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalCoefficientSize.lean",
+      "source_sha256": "badf03da707c8a97cec6d722ecd38b81898c4d0aafe09e4feabdf30a3c0c3869",
+      "port": "module-port",
+      "submission_sha256": "0a45f68547e9d1bcb3073e815f070ff84e9876d8ecb0429d87dec43b9966bf6e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalCornerBasisNames.lean",
+      "source_sha256": "0e826ed37a127e76896feebd7a23049681c07428826f54f7aacf9ebf07148a39",
+      "port": "module-port",
+      "submission_sha256": "7c116e6a10dd71573c5e65707747d478cb7cbe4bc56d14c09607ae6a2a842aab"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalCornerCorrection.lean",
+      "source_sha256": "7f0f14ef9042ccc145786e31743610ee665497bfb5a392b7d4153620d10751bf",
+      "port": "module-port",
+      "submission_sha256": "975a75320150054c3e67aaffa77ea96cfec399f5ac854136f108bde8095e29df"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalExclusion.lean",
+      "source_sha256": "b441776eaa0f5e14b8b6e5b10a74392257d62dbb2f83ab91fc986d8b02292d3c",
+      "port": "module-port",
+      "submission_sha256": "d0bfd21025ea5f4b97351345035e6d7a6ed547e8ec9f3f508ea62135ca6808a8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalHeadBasisNames.lean",
+      "source_sha256": "041f600c75a2895701720b1dac6b2d35efaf5c8265ab6b9f37a8b9d3ce52e257",
+      "port": "module-port",
+      "submission_sha256": "8a12ed068c33a475cf82279e6a1301fa314abc0041b199fd280e2e8a576a28dc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalHeadPivots.lean",
+      "source_sha256": "1a6e9e0192857f401a06325740fdf8bb9b3e88e0df0cda7299e6d52a16a3d9b3",
+      "port": "module-port",
+      "submission_sha256": "b4339df4e55d8f46ab4ec30a97e31852bab5d361fcf72fe2e393ec2e9358724a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalHeadProjection.lean",
+      "source_sha256": "9df57a1e30e9ff5a75dff2cf8b17071433c90471e6f9ee69fcc8c7605e7eb669",
+      "port": "module-port",
+      "submission_sha256": "b1d8ed4ed9b9ee9c730e52ec3fbadbea561c82737467ebd381420a9d1c6f2a56"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalRootMonomials.lean",
+      "source_sha256": "abc9ca0c24f94a2ccf311a9534336cde21aad8d4f164da6350803a2ebd2a9fd2",
+      "port": "module-port",
+      "submission_sha256": "acfae58f1ec4394e6f6bf218f38a706d591611c2eebea0ab38b0ab65a85c53b6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalRootPhases.lean",
+      "source_sha256": "c6017668d0f972df3260b7da6dc4ff8be981aad405fd60ae5adedf6fffae686f",
+      "port": "module-port",
+      "submission_sha256": "c2d3a1a80157fb89d50511b08201252d24c2421bd5218ad3b07d6dc49c73dbd7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalRootSearch.lean",
+      "source_sha256": "01f87491b2243f24d63bb406339cd61bf0a375b2c2601cf9ad6160258b0f84cd",
+      "port": "module-port",
+      "submission_sha256": "c7d262a901415045fe66c1fa4d86cba2808243affe2f7fb9e4c35bb496bd7205"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalRowBounds.lean",
+      "source_sha256": "33499e7f1c3e0ededcbccb55c47caa565ea5eb69d1fec21278c099a3e11a9982",
+      "port": "module-port",
+      "submission_sha256": "a39e45fc253bb0d7475b0b8d6dcfdb66fe40ba604882dd0855a687bb1ce36845"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalSpectralRows.lean",
+      "source_sha256": "37d532f67741416490c04c0fa4b886a96c1948b06246aff7f709eec113a767fc",
+      "port": "module-port",
+      "submission_sha256": "d57f4640d51d03b44b1c572d6fbabf7259584ae1e60f05a81d03fce0098708e6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalWRootDeterminant.lean",
+      "source_sha256": "1d2da6fa9d087b2b532566e1413fb9c5b74b04969b8747cf68993c7d4b575f4f",
+      "port": "module-port",
+      "submission_sha256": "d697c899db06b4681787e9e65879649674f341db9c2d6ab4a6c4c899f10d9435"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalWRootMatrix.lean",
+      "source_sha256": "b3c7b44f1375ce9cd64ac0502bfa71a1c9d79585edce8b122fb4b3d5fcfe8d82",
+      "port": "module-port",
+      "submission_sha256": "2cd6591968b4f8b80caac71e2dcdb58708c221fccde724ff38aff9f2cf99aa27"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalOriginalWRootRows.lean",
+      "source_sha256": "081183c61c5f615c49f2ef1678a0c378c1eb43dd665bc33980a84188c8a69242",
+      "port": "module-port",
+      "submission_sha256": "7b91c2853e7fe5b871894d12eaf26217fbd455104bc64f0197a2c47215c19482"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalParameterSlots.lean",
+      "source_sha256": "3a5ef43a41c5aba89d70fc751329c1561207b90ae77d8461b74e492f7a6cc92c",
+      "port": "module-port",
+      "submission_sha256": "ba683d73fcc0bfffa27ebd9ccd111caea186845a1e71d0f4f64bc017964d196e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalPhaseParameterInput.lean",
+      "source_sha256": "e38278beffb3f605b8bf4132afcac4ef1875a00806d6a139893a2fcbaff0d4a5",
+      "port": "module-port",
+      "submission_sha256": "393bf07a14c090412640b03068fd31f416e7c24fe5245a79bc27d710bbf4223d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalPi.lean",
+      "source_sha256": "6cbf90b536efe4be71c5389ca5d3ae0981d7d82dee89a4e874fd5c8d40ea7445",
+      "port": "module-port",
+      "submission_sha256": "2f4b8ae4d6816153ea4f646d940b596a6183580facc2957d62a4d0da2191aaca"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalQuarterCoefficients.lean",
+      "source_sha256": "8e282417317996400e0c26d70173a587a462cb12aeb47b0a93791ddb8cd84188",
+      "port": "module-port",
+      "submission_sha256": "e70135e454d233c089a22d226a1ec976102bcfee1f8a09876b04c9d8f8e74dcc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalQuarticDilation.lean",
+      "source_sha256": "465286c04bd7afc55a8e4ecbe25c4ce56106c8ebf052fdea7a9462ccd4545cf1",
+      "port": "module-port",
+      "submission_sha256": "93473567bbd7296d00be3b47b22bf149a7908e6c8484f0a72a92035c8e949c56"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalRootConvergence.lean",
+      "source_sha256": "3393d8e8d5784f44df94ad4fcc448f9f7fce8a4450d4a42bda4a4c0be8a5e972",
+      "port": "module-port",
+      "submission_sha256": "c11f7523075f4049742c2c7494b57fa5f45ccf2abd8976cfd2e07359ef4176f7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalRootIntervals.lean",
+      "source_sha256": "c6b3d1706266313b51f6fcde3d62865b639763713f5411660f48999bb1872ad1",
+      "port": "module-port",
+      "submission_sha256": "74068590c6d68dd2654b29da0c9a31ef441c2d85c06bf3e3ee942ea27dd79a4e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalScaledOriginalRoot.lean",
+      "source_sha256": "367b77742e1943b5a255c49970842ffab4a74407434b2660f845d134276ff1b3",
+      "port": "module-port",
+      "submission_sha256": "d2a38906236d2cf6b3e690bfc694acedcaf56457b2fd25d2140ecfc75ddd9c85"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalSheetPhase.lean",
+      "source_sha256": "671807cc07d424023ec65fe240fd42ef4f260f9bf8cee1bb3f1e234d6a3d7e47",
+      "port": "module-port",
+      "submission_sha256": "b71043ece591fdeebd4b7d8050c0ddb3ff4867b7b85c4ec1a7d5f4f390e6f1d1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalSheetRootPhase.lean",
+      "source_sha256": "966e7d6dcdb2cd4fb5aaef186e6ae6f082e54886d501f47237464f1d204141af",
+      "port": "module-port",
+      "submission_sha256": "399c2348e15a0874479bda6117d5bad51e4659b8acf319d6256a5f06fcf98f95"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalSheetTangent.lean",
+      "source_sha256": "ad598d97807b2e99b93250ce054ed9051b9f658ce85dd916ebe89a6fd1104d43",
+      "port": "module-port",
+      "submission_sha256": "171e6fe8537853aafa44e013e53055e338ae3b25daa1a2e1f9dca2d49d2e5e1d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalTrigPerturbation.lean",
+      "source_sha256": "09ac279245ee52575e7bd789dcdc5b4f936c2faa3a4ce7645fac4db11d2aa47e",
+      "port": "module-port",
+      "submission_sha256": "e2f23d7e811722c20f2f3dc483c8dcc6a05fc1acca3b0f61c1af1bec97232b11"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalTrigPrecision.lean",
+      "source_sha256": "1a70489a85edfcd7a3dd55d69ae08b92ce7eac0dd7821f43ca2fe6b730191281",
+      "port": "module-port",
+      "submission_sha256": "9e0f6ad4e444e13d4124c6475d61981e57d6b85b9384d5c3e78832fb082ade57"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalTrigTaylor.lean",
+      "source_sha256": "65b2c68744ae5c6ec4ecfdbb6b295349046814d1653e45bbab6243ecc72bd6be",
+      "port": "module-port",
+      "submission_sha256": "58c9ecbb59fab901917bb2166e0d7b7b2ac0a658c9bac76733d91fa15b23503d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RationalUnitPhaseNames.lean",
+      "source_sha256": "fe60e5573d172d0c72573ed52563cea751a53f1b8c32df20c07672661d49ce11",
+      "port": "module-port",
+      "submission_sha256": "05b63497dfca7c9490d6feb5c737977527477ff9deff30205785c52e6037d1de"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReciprocalPolynomials.lean",
+      "source_sha256": "0c6e19ba69b44352949cbc1023f6e6db126097d44104dc8bf252009de92b42ba",
+      "port": "module-port",
+      "submission_sha256": "f0d41c4a428f611c58906924d0fbe6360bd8cd9b4c0d92c03bee3be411b4c77f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReciprocalSlabSeries.lean",
+      "source_sha256": "45fc1ad022528544d4e39276c34dc4b11b2d5a057070cb72cb151b0fd2c3fa22",
+      "port": "module-port",
+      "submission_sha256": "a34bc99c299c8f07b726f22fbd7fd75610cc470bbf67e560cd8f5eed6a0974c8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReflectedPrimeSchedule.lean",
+      "source_sha256": "1f918b616312766b2e770768451810e9f6eb3a80ced42b54b9d1c258d1fe6fcf",
+      "port": "module-port",
+      "submission_sha256": "bb0d9ee5e535cc44b8d2fc12beffe830cb54626fd6021eee278f329fd78f0625"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReturnBounds.lean",
+      "source_sha256": "1b482609570c2e2057b05c70ff57d900d5e07360d47d821502a1f1865920828a",
+      "port": "module-port",
+      "submission_sha256": "4bd26d78d0f7e103ea5272ddf08ed12d49f926ecd1d4c50f912acb09f0a35774"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReturnCorner.lean",
+      "source_sha256": "d77e96e28d857d83e8588f12811c7fcfd32fb8e4a9d7dd2a870b47c29e7e256a",
+      "port": "module-port",
+      "submission_sha256": "43d32e00da28f801736df97b3f41b25fd156f40934d43c308d8c44cfd8a37f30"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReturnMassGrowth.lean",
+      "source_sha256": "60cda7ea912daf2f003b021871496a2dfc160ed8dccd03346c1882b4e6e33539",
+      "port": "module-port",
+      "submission_sha256": "d1ca97f4b138f60069bbe900c0baf85f11d5a6940dd866fba88285efc9a039e8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReturnRoots.lean",
+      "source_sha256": "14b3db40b3a5d3601e49319b795bc7e39221c679fd329b75e00e187104114fce",
+      "port": "module-port",
+      "submission_sha256": "ce0b6d887f9193228486f777403a880b2623da49cc1fb0c4d73f226d8b34a3ec"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ReturnSine.lean",
+      "source_sha256": "fb3df3d6f77c22cf9ae904b1ebffbf13acc7fa4e0d36692859b050764b426b15",
+      "port": "module-port",
+      "submission_sha256": "81b51eedf1523f1a5241f199fe5c80bcf14dd96a9e882e5eaa2b32ee8aa12587"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RootExclusionContinuation.lean",
+      "source_sha256": "f58942a46605158ba60c753d0611f29173cbf7383ecdf5f6503b19d0ce5f4f99",
+      "port": "module-port",
+      "submission_sha256": "84ba54773c1b28e61197fb1e945f4d45b1553a746db35726dc8ce72f10abe70c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/RootParameterContinuity.lean",
+      "source_sha256": "c5148632e28853dc98cd298748dedf0eb442c05278092a21940f8a45fa1a0b80",
+      "port": "module-port",
+      "submission_sha256": "707c3b4f1a4834fda9631bbfba902786fd2095d076f125e33c438890d6a7dd67"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalAllBlockSplitting.lean",
+      "source_sha256": "08af64ef94af2357ed9a0bec78a2862ffb5c893adb0981cbb3b5eeeb9ef11c7f",
+      "port": "module-port",
+      "submission_sha256": "28450d93a5a73902e2a94e7680dc570175f196c2d41dc7f2ec4a2c3a6e8d2473"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalAnchorProjection.lean",
+      "source_sha256": "35ff178baca9e9dd445275b9c921d580f429681fd424de34ad705b51cd57002b",
+      "port": "module-port",
+      "submission_sha256": "cd4aca43569911ed1556519951ca026f40c422808f2c4ec80d22ad4781930b0e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalAnchorStability.lean",
+      "source_sha256": "b66a0c5d3d4a8aa8834f31bcb732c896e351135f6551931b5e7c755b9a58b0f5",
+      "port": "module-port",
+      "submission_sha256": "098bcca49a33fdd31dc211118776658607b155a113b71a5b05dfb6e2dad9c738"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalBlockFactors.lean",
+      "source_sha256": "9af83e64c2c90d4727defdcb9e6f159df664b913be589731aae28ff654a89491",
+      "port": "module-port",
+      "submission_sha256": "d5d098d6dccb21591892f2739b828c9e3b370d30c1bb3248dcb8b40b061d8e42"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalBlocks.lean",
+      "source_sha256": "8a771830f53712b77c2c88be067288d0badcea1f2ceea7dd374df59f22f198a3",
+      "port": "module-port",
+      "submission_sha256": "c66cb6446d7addeb19a0387b254ae7e8b6e2f3a59d2d872836d72fb0736105f1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalChartBlocks.lean",
+      "source_sha256": "b23388c25ae639f9ad2e64a4f99f5936a9e845c825fe73a905182a8eaa52ce51",
+      "port": "module-port",
+      "submission_sha256": "7203d3a43d42f976d8d41f1cc66110f8513e3235d4dac4d546c893804502497c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalChartCorners.lean",
+      "source_sha256": "b8511abc42ebdf314d1df123b1a4b5cf58be133299805579fabb89d8544cb74f",
+      "port": "module-port",
+      "submission_sha256": "bfa574204d35d3f3c64eca10860bbc1b440c4b995219eaedf3bc3c3e32c38043"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalChartDifferences.lean",
+      "source_sha256": "f89700ed015677bc9c2852b7b09d9a56a878edabbf793e5d8a869007717cdcb9",
+      "port": "module-port",
+      "submission_sha256": "492e9f25cfdd61bddee72b0e759107961c049d9bce1b09d430fec46c2c686b87"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalChartLocalSplitting.lean",
+      "source_sha256": "95109f84f78f8b2625222f49f0657d85ea8b9f70afaf6e99a1673a4cc58cf093",
+      "port": "module-port",
+      "submission_sha256": "ba7372a2e925d072346261f2d2395b463db10c74298a0b9bedb35c5f252d7c47"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalChartNumerators.lean",
+      "source_sha256": "ae2df3000aacb966ff8a9db128995f95dde44a3713e3ecfaf5d4419a940ac26f",
+      "port": "module-port",
+      "submission_sha256": "754d43f1fd6edb40808e462d2b485195e9b8ef032ba5093463adf7272eed1800"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalChartPoleCancellation.lean",
+      "source_sha256": "bc1384750f7387abc0c930fcb7d6181887c9ab5dfb2029ad7596db34387d3e26",
+      "port": "module-port",
+      "submission_sha256": "4db3f83ed3f5f190e9d185fa303e03c143cf93d615c7d5a11af2c9675b52c4dd"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalChartSheetFactors.lean",
+      "source_sha256": "89d57c3001f23a402cab7b87ab4d5d9da40f12f554e54f25f9355ff77d5e78cd",
+      "port": "module-port",
+      "submission_sha256": "31f1707cb70687b116861a388393fe27b678edf25959e574effaf5a7fba89263"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalCommonCarrier.lean",
+      "source_sha256": "65457dbed1c58831e7cb464139553c8fc3d90adbcf8394bbe13340711ce605c4",
+      "port": "module-port",
+      "submission_sha256": "3b3805ba6a1ecafd51ec979148443fe0ba60074177b5a5e7d957b03cdd3639e7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalDifferencePolynomials.lean",
+      "source_sha256": "fdd5c26e7bd2b6e51855c58192af627946852d440fd35c365664d81f376ee49e",
+      "port": "module-port",
+      "submission_sha256": "2d1b9893f96290f2ccc53d66c35bee1dcd743a22e704b5e2c325a5bd05df9b11"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalDivisorCharacters.lean",
+      "source_sha256": "9b192a3505dfdfc03d7f5135240c141deb365f186c861a690e30d84976fc26ae",
+      "port": "module-port",
+      "submission_sha256": "a71b273e70c4abbd27acbcd026d2c973f1446a9441c7f87ec5c04d378a4dfd92"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalDivisorOrbit.lean",
+      "source_sha256": "6f51c9af4ff2229d62ebc7c7adce32d8972034dd9f97722777105560eee5aa4a",
+      "port": "module-port",
+      "submission_sha256": "e4ce838182d2a36210fe0ac6b54f91afdfb6704086468cc21029c08ed4090a7e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalFutureWindowBounds.lean",
+      "source_sha256": "cfebd3b1023f0225e87a46a337d881b17fa253f3ff75dc1ee28215c1c2e159ad",
+      "port": "module-port",
+      "submission_sha256": "2c3e4ca4f8aace1e3242e5fc3c39fbb8ddff1cfe8252747fb505930b9878987f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalGlobalInvariance.lean",
+      "source_sha256": "f5fbb7827823ced9d1fb57c17a11a3269e5e1bb779f764c76e3e0ea689893dad",
+      "port": "module-port",
+      "submission_sha256": "0270111fae430b79b6080b12cfae78ebbbfa7254df5b4e86406a20f1e1f12ee3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalGlobalSplitting.lean",
+      "source_sha256": "9ce8932767e4e78a409b8c1fa88ebe880d954d227aa20bb6ae1f29c62eb57398",
+      "port": "module-port",
+      "submission_sha256": "6041f453f1d125aa23f40721a4a1db2f1635fda7221c420f0ef7e307522d7f00"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalIndependentSources.lean",
+      "source_sha256": "68684d54484ae34a4d23311216655ac4aedcac3693786b2627f595bdfb9d926d",
+      "port": "module-port",
+      "submission_sha256": "651e1392c0ddd5d67b73181f6d2c5ac652870f1e7a0622c6bfcec69cbe01259d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalMixedCharacterIdentity.lean",
+      "source_sha256": "cf1a3b9ad791c35bca09885ca6cb29e9103c05f6c626a9db847b4f1bf672f67e",
+      "port": "module-port",
+      "submission_sha256": "75874bcbb43c1a886e7b72c69ba2f43ef4179b1b755a1218a149bc7bf59bf736"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalNativeExponents.lean",
+      "source_sha256": "69bce95f6e8e2459856c12e229ee785bc56326ee276d9a75f89325dbe3c3fd94",
+      "port": "module-port",
+      "submission_sha256": "be79d0a4aa202f8a6fb9344bb74b0fadbe3860106a0df51aa9cc1d9008cdc84c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalNativeReconstruction.lean",
+      "source_sha256": "afad75765fc6a0e0bbca3adc9c13882147a9cdd8d1a1f228d8aced0d5aeac7ae",
+      "port": "module-port",
+      "submission_sha256": "811a0639a16059d147ea217223a2fa212bca75b5f872de7de4085a0ea2156cb7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalNativeSlabs.lean",
+      "source_sha256": "c40bbb6162fdac4f6f050ff28c4b13f2d0d1c8b576f6edb44f0f03e1f64d1a79",
+      "port": "module-port",
+      "submission_sha256": "a7729b72118b362fe295c10cbd28fb2889fc01a85fcc8386fe166e6131399cd6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalNativeSources.lean",
+      "source_sha256": "5a89bfed19d6678d5b2f356fc8b137a191ed125bd5040d35b30f9e7cec6e459b",
+      "port": "module-port",
+      "submission_sha256": "e05185c8d7cba9d3458480bcb35561f97e18bea21b906ef948836d40cf89d62a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPoleCancellation.lean",
+      "source_sha256": "7dc735af48411b485703481578b38693a5fa34d4f59db36badb5d2e1849e3410",
+      "port": "module-port",
+      "submission_sha256": "7005e30c1ef24d65dce70e2c0d68b75314411b308e4648aeb789b271f07a5e9a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPositiveCharacters.lean",
+      "source_sha256": "a0430dbae8fbfbe03cba786b5756ee31f5214c13ed3176a2a5e12a90a375ca0a",
+      "port": "module-port",
+      "submission_sha256": "d4a1528ab3a2282d88735e7c22ca1d31013dc1a073cea853bfba33c17c3a0568"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixArray.lean",
+      "source_sha256": "fadd21570f6105e4fa4edfd941774c9258624203f9515e2db6ef5a4418a617d6",
+      "port": "module-port",
+      "submission_sha256": "8ea2b5956697f4b65ca05b3b6c00480ba037f801e9b3a39386aa2d198ef2f35b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixClearing.lean",
+      "source_sha256": "ad552d0cb3303f4df679aff43b34a1f9ffcc993daaeca0ef577c2291a8fc1acd",
+      "port": "module-port",
+      "submission_sha256": "283f51e27531a60de93a286b8341f41a1695d9542515a714eeed8fa5ec3f5c52"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixCompanionRecovery.lean",
+      "source_sha256": "33717021539cda53732b80c8f49e3ad2235d52973a9bd39778ed1a18311019b0",
+      "port": "module-port",
+      "submission_sha256": "80ecc2913a5b482cfcd6c96b4de67166e30028f9576575fc3472b2ed9c33b697"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixCosets.lean",
+      "source_sha256": "e4f16fbb03422817c41d06c3224c082e58e8ed2bb65ad677db3a5a7cd8618eb4",
+      "port": "module-port",
+      "submission_sha256": "cbdc542aae9ba08148e12f77ccb675b04de8016b67722a78e6c6d40de9529bab"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixFixedExponents.lean",
+      "source_sha256": "c06490982a4c9dc13f8ac93fc9f21714782762e0f1066b153aea9fdf060f5882",
+      "port": "module-port",
+      "submission_sha256": "82e8f3f130ffd53e22a9e517f68d68329c47e77a23a2e345b3f979ad3420dae8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixGeometry.lean",
+      "source_sha256": "50f2f6271d0e7f347a7d8bca6042323a2040570c581f80ddc0c7d0a8a9e83022",
+      "port": "module-port",
+      "submission_sha256": "bd9be9b493b9f974db561714c519253b85bb005628231962b47f687750b7ae17"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixIntegerArray.lean",
+      "source_sha256": "57d87a78e1fd738f4a5d0dc3844b56cd402cf6bf68adadd0ad25f01cd92b6e14",
+      "port": "module-port",
+      "submission_sha256": "060efcf0d975edbde9b8b77bec0124d3414b8cd0a23fd744e6642b840575d099"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixLiteralRecovery.lean",
+      "source_sha256": "7f9baa0eeee1871374202faac0e9ca2539ff6b5721faf941e99f2a5a2d9af694",
+      "port": "module-port",
+      "submission_sha256": "bd15bf46286fe658b4adc9fd8b372453ad0197622ea97d018038fe669cc46a2f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixNumerator.lean",
+      "source_sha256": "4ccbe0e109760533876d5fd08bc31cc6d2f0b45a5a3c6d967f59be43581c0f1a",
+      "port": "module-port",
+      "submission_sha256": "a6174030f9f54a5cde7946c08d18f35d0b4c39662ec415bd4a3f0dd3d3848dab"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixPolynomial.lean",
+      "source_sha256": "b618f836415f848e3ada6b7e4ef7938b7cfde4584fca569a143c94b9146a5d3a",
+      "port": "module-port",
+      "submission_sha256": "93ee09183088482ece9175216732a5be2961c65bbf6bdb5aa62f74b4b01517b7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixProjection.lean",
+      "source_sha256": "ccd46df715c185116055eba130f53fb0f97df995a0b3e10a2716f7e79910667b",
+      "port": "module-port",
+      "submission_sha256": "a98f6af1fdacca9ba0b74db249d2661185e958893b39a2a9ebdc861074460f9c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixSimpleRoots.lean",
+      "source_sha256": "0967de3922062365836b2774a02ada8926990d74318f4665f119abb0b0523601",
+      "port": "module-port",
+      "submission_sha256": "32e54f834ed66bd2d5f47854cbc50b7bcc3b12f597f92e70eb0cb9be1b95ea33"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixSourceRecovery.lean",
+      "source_sha256": "00aee5e2d9485dfc097611ab5f0b3197a51a0f3cb5dd89cb2678dbbbd1386ee7",
+      "port": "module-port",
+      "submission_sha256": "1d312c8cce98ef346464a0502154bdf73baf29f331b00a007d822b0ed3f208d9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrefixSpectralRecord.lean",
+      "source_sha256": "2303c968819e53f511744e2470397a980affbd5c17bc2b16dbf85b2433cd34f7",
+      "port": "module-port",
+      "submission_sha256": "517aa18c0f00cd3d137c7c171f997284caf73f4d5026480fc9b2abd6516a04e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrimitiveOrbit.lean",
+      "source_sha256": "f0fa93f723efc16e19607bb97419155eb364c41ad489dd16aa41fcfcc60e3079",
+      "port": "module-port",
+      "submission_sha256": "23aa5f0fc80fd0aea5d8bc8ceafa9273d655e6dc45207d92f2322a5ec6592f3a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrivateIntersections.lean",
+      "source_sha256": "9ef3e027c0f866e8310d7c8cadf0da82421e7c3f5ad1de225380ec21a6912c44",
+      "port": "module-port",
+      "submission_sha256": "ba86d9f54da875da293d120f54f1d05df3325c7e6956c139327539056262abba"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalPrivateRows.lean",
+      "source_sha256": "5b35a601d4d2f015d67bbaf196cad8d6e8e9ad8b8acc5f353b7df208678ee87f",
+      "port": "module-port",
+      "submission_sha256": "455971e8710afdcf9b4f03068520cf1b95a0a25f34b40753a1bd797526bb8134"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalProjectionResidual.lean",
+      "source_sha256": "e21cd908bc0da195ed1ee8c854baec13509bd0130ff3892bf2a85a8d54b30b85",
+      "port": "module-port",
+      "submission_sha256": "a7a4b63fb3103bb96eb8d3f7b0fc0cf715c22e304c3dd5ed9f15b232a418976b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalReflectedLines.lean",
+      "source_sha256": "78c4a090695891f3a0aea92020e86655fdb8eab80e2477f3c2a57ab628fcba89",
+      "port": "module-port",
+      "submission_sha256": "baeeb02708b8609f290b4ad4a2b6f1944a7ef9d06bfc9f099362bd35b4d1ad54"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalRootAnchors.lean",
+      "source_sha256": "56675da7111050eaf2f0a42c4b9413800f4dacb3f505a1e896a5c9245d9b3f78",
+      "port": "module-port",
+      "submission_sha256": "8a339f8453756ff4617aa510245215788afdf8a92ee0cf40a16965fecba04ac8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalSheetPrimes.lean",
+      "source_sha256": "4d4222f3f28455e76d2c2858f3d6ec3d54e278285f0a427a2d3d20d32fc52eb0",
+      "port": "module-port",
+      "submission_sha256": "e75c05a09feba787dd82565a59951cae1de5d5c595882a2d7ad3f7e3ed2be664"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalSheets.lean",
+      "source_sha256": "72ca5d2b8d819c4f775fbf593ded2619b4f607a1d4949e8a8f2544376d59ed0a",
+      "port": "module-port",
+      "submission_sha256": "86f57c16752ee206efd601314f608b12a2591dc77abe08ea72194a5cbe3b7c23"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalSourceStability.lean",
+      "source_sha256": "e1af4bb315b643c4d167df2028fcd35f61fa9a43707c4cf7580229bd8e169b11",
+      "port": "module-port",
+      "submission_sha256": "1260b3af5513f0a52bfb4677248e9e733049d50592c3e87f35d16ed03e067f5b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalSparseArray.lean",
+      "source_sha256": "ccb5e752af1a4dbc9db23443a560c7dab1232cff0c7a5f9b65baa87f57614f0e",
+      "port": "module-port",
+      "submission_sha256": "cf6f805b37c6296042261a207309f431bc9c7710c440a95f214eb75cab32a621"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalSparseCharacters.lean",
+      "source_sha256": "082c29af427b238557cbcecc1e13c156751831ecb0bf8bc355c29608fa5940cf",
+      "port": "module-port",
+      "submission_sha256": "e5369d45ecc1e86eb0c95208b84393056d7c4215277bfdbd172334ed009b7df0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/ScheduledOriginalSparseGeometry.lean",
+      "source_sha256": "ae60dbe657919b7bdbe5bde50d36de0d05463b9205b95982b6ebe49d79cdf267",
+      "port": "module-port",
+      "submission_sha256": "1e24ae727ff8ca19effde444c735c53d5edfbb94ffdc6a285727e54bf825738f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetCounting.lean",
+      "source_sha256": "205cf8c5cf1e8aa57ef61cca8526d041fd096195126c918478e755f87f332698",
+      "port": "module-port",
+      "submission_sha256": "6dd5c7374769a486384c168862505b84f4374bbcef73be15ece01eda50425e44"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetDerivative.lean",
+      "source_sha256": "3df14ab6eae9d78d3513ecf67a15b273d5dee6894155c6d1c6ec72c2e924ab7b",
+      "port": "module-port",
+      "submission_sha256": "d0a8d4aa5c89d3a35c6eef9cfc515613d96997845981dbe7890e48905f7e31f4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetEisenstein.lean",
+      "source_sha256": "c7655209d0af3fc83165c0321e7ca10e168a148ce2ca9dec3ceae86668294aea",
+      "port": "module-port",
+      "submission_sha256": "242c1b71c19fc8803a095b0ad79a1c2872e461b2d11857c9e2257da2b1cccda0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetFiniteTaylor.lean",
+      "source_sha256": "c4190dfd14efb293f834d60201b149b32cd61a34c4397bbc0d1e546cb7049895",
+      "port": "module-port",
+      "submission_sha256": "b005f2e652105414d9b5044da06f648411f0813834764974cbe22f17bbcc19eb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetFlow.lean",
+      "source_sha256": "b006942d1a44f20bc68c47bd9f950bb0d8f9ac175afa2c1c4ab58c6d4f001543",
+      "port": "module-port",
+      "submission_sha256": "99067ae1dbc0efd0ff7bc1f46ec26a18e452163e524acc7b2e0ff95a97c309ed"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetHomogeneousOrbit.lean",
+      "source_sha256": "7999ed8d24dfc78d818dd150489e6607fbb8d4e09a5bcf382df5ba0833abe6d7",
+      "port": "module-port",
+      "submission_sha256": "afb13e30040245c6a52c5363388454c72d82c829f545d37e2ca4d67ab32e5256"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetLiftDerivative.lean",
+      "source_sha256": "0ebdfaff264407203a59906105f3e21fe97b827097ac8ad2e13e98176ed873d1",
+      "port": "module-port",
+      "submission_sha256": "accfa23dd4c19bfb866d2285de681294e1f298f837c18e5e265f47361af3b9fe"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetOrbitNorms.lean",
+      "source_sha256": "7d9fd2e33821c680c8e76edf3adf3b5bce8352f12667db47083e1177e648e78a",
+      "port": "module-port",
+      "submission_sha256": "33258d35ff5f7c2fc4b38f4848050f5625a20f81fd66859f6d0910b232709e22"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetPhaseLift.lean",
+      "source_sha256": "70a12fb99b7ddf85d5e35c436c05cf6491358bb2265923bd8f49058cffd5425d",
+      "port": "module-port",
+      "submission_sha256": "0e6b5e01e4d3bec8802b10d5bd563d3efb37b96e101353b1caa6c2f16a81a318"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetPowerSeries.lean",
+      "source_sha256": "c2cf54f97c6d5863e380540b707aa8ddad9f6a3a0b13f43f838885ce7452a9d5",
+      "port": "module-port",
+      "submission_sha256": "96754809a4762a0e7e9b3691a294be3872dfdb236858f0bb0371e8c65fc8fa4b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetPrimeOrbit.lean",
+      "source_sha256": "033aae7a724508bae55abfac53685690cd83bb99118b248d72c83433e212745f",
+      "port": "module-port",
+      "submission_sha256": "38210776671774a3cdcbba03e2c572e153af96644a8c496a8b2b6eb39fb7e59c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetProducts.lean",
+      "source_sha256": "cdcab57b6153d2193e443dab06f1ce184730b520036f2fd376476fb06ac74aac",
+      "port": "module-port",
+      "submission_sha256": "ac37bfeaf145bdb3446acabdd34c5327c6d8033c6d1c607b565bfc45c1fa2dc2"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetRootLabels.lean",
+      "source_sha256": "0474a78d3a4a5338ad795ff69656a1558743e8951a87d2bb5ec352f25fcd2921",
+      "port": "module-port",
+      "submission_sha256": "6fdee6e8bb9bc24c6d9a3412b448acf845297ded1ae8530f40628a8631bd02c5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetRootPhase.lean",
+      "source_sha256": "1fd00a45ccf89d6b1c5faa67e8ac606d13800629f32852e95bae283af63e5eb0",
+      "port": "module-port",
+      "submission_sha256": "297c7d1943e03155432c6c68ba19cc46e2df873a7edb886476d41fed0c2c32a8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetSeparation.lean",
+      "source_sha256": "12c73da0826a742a311cbb6d8079e764a383994784e57a10749d215aacbe96c0",
+      "port": "module-port",
+      "submission_sha256": "53d8b0bc5144bae2a3a7eb753be0654c6a6541ea52c0983c6538f4179c577f44"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SheetSpacing.lean",
+      "source_sha256": "79e37b005d7a1b5475cb8ee3a808a3c14a4159ca335843820dffbfb78cecf6ef",
+      "port": "module-port",
+      "submission_sha256": "29fab361790f5c7b4fa096ed640f51673f577fd71d53d93f09a2385279b9992e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SimplePoleRemainder.lean",
+      "source_sha256": "71eee749331c2584cccfdb185a13fa3ef44e4d49b84a54d118d694cdf5d4f8fb",
+      "port": "module-port",
+      "submission_sha256": "af72c8c99d541386dd72fedb12771d6604fd3e4cc35d40c3276f310e287a78b5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SlabCoefficients.lean",
+      "source_sha256": "08b5609cb17e8fab7510d15956bf2372aeb1da29b137414494d0fc7e77deb1c2",
+      "port": "module-port",
+      "submission_sha256": "7843d50db7e765d19251f20434dca1808846b7aea60543b0122e86bdaff863e8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SlabLaurentPolynomial.lean",
+      "source_sha256": "f02d6f1c5d6c1c6c519719939eb6e65148fcad65e768af62807cfb57a3471c39",
+      "port": "module-port",
+      "submission_sha256": "8d5a0e28558e399b4fd5c35bb40594c2bf59c4747790c1c961c2edd716bcdcd6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SlabPowerSeries.lean",
+      "source_sha256": "5384985fcab2e9a57ef18e248b0078c268a43fbb032dc8ce6649a6234a267206",
+      "port": "module-port",
+      "submission_sha256": "5a9281a556c03f321e79c5b37f1ae016cac8158c5d188f21408102600c084c1c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SlabZeroCoefficient.lean",
+      "source_sha256": "b573c50be4f29eeb8b844119e0282e479a163ddfd1c34810da748154ae43c8fa",
+      "port": "module-port",
+      "submission_sha256": "d68608a7c637b599ef9d6be333e2d2d2523218b14d190ebc72c23ccb04ea0e67"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SpectralCauchy.lean",
+      "source_sha256": "a01f84b432e784eca4c45e4d6692615f5e3ca70d3041e2dde5346b0b2dc73cd4",
+      "port": "module-port",
+      "submission_sha256": "776005833e9d6989a1db345701a2a8d66cccb1131ba40a8b65d8802bd207f10a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SpectralCone.lean",
+      "source_sha256": "183569131014623a91dacd76adbe6633cc2508b98055994ed1a0679942213225",
+      "port": "module-port",
+      "submission_sha256": "56c548a5eb7646ea8ce6473650b090c675cdbecebec194a49e534542d31f1109"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SpectralConeIndex.lean",
+      "source_sha256": "61034f7ff01c4b471427bd8809381a931208b36678aa1300c66b180f22624abc",
+      "port": "module-port",
+      "submission_sha256": "2c3689483957f13c04267dd6d8ff229ba67f6af21c405f1f6e4838e5a16eb7b7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/SpectralDistribution.lean",
+      "source_sha256": "3e60033316ad8df2176790f33472d6d950ad6e2e0850ce71560e4d55858b9b24",
+      "port": "module-port",
+      "submission_sha256": "465a103dfdaff88d39e4dfde55f4da45911def30b9c7a709dd175d7fd2ba95d1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/TorusSheets.lean",
+      "source_sha256": "2f29e4ccb03203282e75e2310f0a64939b5b3a37684a6a7568d8eaa342b9e69a",
+      "port": "module-port",
+      "submission_sha256": "88a376a7981aae148d8aee6473c319d7ccb12b35822a2ac921ebbd373ba801d8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/Strong/TranslatedSpectralCone.lean",
+      "source_sha256": "efe2d81a17d5575f7a26466dcb3b6e266887dd883b4543127971831fbbd49483",
+      "port": "module-port",
+      "submission_sha256": "3dcf4140626d4b2be595f48043e5709224511591c789230cebd086aa5c6b91bc"
+    },
+    {
+      "path": "MeyerGeneralProblem/Cardinal/StrongFiltration.lean",
+      "source_sha256": "d3619194791f4f177a2e01e6ddb812a7fe81994e77f0d9f40e2b4b7b2fcbae17",
+      "port": "module-port",
+      "submission_sha256": "be123f93abd1a34db22b217423d22c4f35839911f5878b79f4d85906ed1d2fc5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/CanonicalClusterGeometry.lean",
+      "source_sha256": "2c1a4616413fba0076ecbdb113df88d52c7859d7d212d046a08988f7abbe1212",
+      "port": "reference-port",
+      "submission_sha256": "45779fcea37669eb87153b93fee5d971fee2a41568cf0ea2f397ba0f676a0df3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/CanonicalSourceBlocks.lean",
+      "source_sha256": "a163f76600b3c458adbe81a1db94a64eccaa1c8c31d06500613cef7bfc716829",
+      "port": "reference-port",
+      "submission_sha256": "5acf4bbdaa439ff97688157067fef6e275f139f0386343d8e53eba10c9d58b2c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/ClusterDecomposition.lean",
+      "source_sha256": "5d002b0e3d1b1c3cbfe79655ebf252b2386f0730d66b415ddadba08dfaee73f0",
+      "port": "reference-port",
+      "submission_sha256": "b6f048c01682ceeb05cd9be58adbb861142b8857ab0305171f2de7bd5f33efb9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/DensityPredicates.lean",
+      "source_sha256": "c4c3ca9752728a5903fa39b6eea594118c047c21fefa085db27fdbd1ce9a7458",
+      "port": "reference-port",
+      "submission_sha256": "8cc66aa5560ec93467e185e1f5c35e8a2baa48d157f6ffadb65b5f76a8dd3372"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/Dilation.lean",
+      "source_sha256": "8d49bb726fe0d3beb0693cdb82766bf331b42366aee290666728b32bb513908b",
+      "port": "reference-port",
+      "submission_sha256": "242bf20533e0e0bddf617dd907f1e7d0b34161d64bb7b6be6eadf30055f231d3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/FiniteModificationDensity.lean",
+      "source_sha256": "7c163db43b502b1d187b136cc1b96fdbbb44d3e6d3e2ba2b0751c700f82daa4d",
+      "port": "module-port",
+      "submission_sha256": "eb6ee19af0126ca41ba0b1ae5944449c3f8bca5c45c9c5e093805e91fb1b7b7b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/GeneralIsolation.lean",
+      "source_sha256": "d417df422656bd12c3a5bc16d0869436c7cd21f6f33dd0d3f4465ba3a3b4a71e",
+      "port": "reference-port",
+      "submission_sha256": "85b1992b80c772f877b3f1bd7ec6d5d9ce62ac1671e17856ee93a8e17bbff911"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/GroupedLimitJets.lean",
+      "source_sha256": "a85ef336c183ef758f0c9fdb12ae1849528bc35408bfdf9d74fcb6e92ee40a96",
+      "port": "reference-port",
+      "submission_sha256": "b99c938b58e89ee80e1968a5b02d32b99c54a7e510c1368ff8957012546301c7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/HermiteMeasureSupport.lean",
+      "source_sha256": "851132eb51cddc4e43f1f41098160b555cea56caaf6163c7ceb78044a28f7934",
+      "port": "reference-port",
+      "submission_sha256": "062fb78ada5f51623b28dcc2eb31998aa2730e2918f0316ce1a27f900d612b9d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/HermiteSynthesis.lean",
+      "source_sha256": "b40eaf9c7495fe6eecddeb9315787b3e6538e6b712685b3664a3e90f1ecf5cd7",
+      "port": "reference-port",
+      "submission_sha256": "347c006564f651af45901ede3b6b8afb47f380ed32d19e600d3868dca3f32c26"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/Indexed.lean",
+      "source_sha256": "e9a680acf27e2000b9a6bae5c3dc0e474ebee39fe687676f0f01bf1026be6ddf",
+      "port": "reference-port",
+      "submission_sha256": "d7d56bec8f1e4fa2027045e5798a19ca7a1544285016900be1e614b6caf7c93f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/IndexedMultisetCompactness.lean",
+      "source_sha256": "4a09b7a3aecb6af49b5e8d638c76d3a3828bc2fa30b808328eeb624e01bee8fb",
+      "port": "reference-port",
+      "submission_sha256": "181985ac3471b19d6eb8569567258dbd49f948d12c4d3b96b132bb918deb12ec"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/IndexedMultisetCounts.lean",
+      "source_sha256": "50cc0674d6fbcb983548bf612b10f2ee45b06e325854124f8b71abae2b8d406e",
+      "port": "reference-port",
+      "submission_sha256": "f3b4d0874f15f97be3d3db0177475e7b093620884af7de83c5922b5cd34de9e8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/Isolation.lean",
+      "source_sha256": "5c7d14b24b4c019090c60da39060e4478fb6135f84a35a538259cf47b0c4c103",
+      "port": "reference-port",
+      "submission_sha256": "86becc5466a0a2e55b77aa84252b898207cd791feb622ba453db4f0355f33778"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/LocallyFinite.lean",
+      "source_sha256": "8f8a70365c9284b0bb9b5cd101cd4da95d46b9e39bc77854be912586e2541715",
+      "port": "reference-port",
+      "submission_sha256": "62e7625d88d04cbf447e4c17789a53b631ae834e960d8bb63cc04af0954f7c41"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/SignedSquare.lean",
+      "source_sha256": "ad941898546b4b28a303b6fcd13c6439e8dcf827a5fb9a388ff4c0ea563621d5",
+      "port": "reference-port",
+      "submission_sha256": "d67d71aedfa20cbb9a331c8d66c24f89d0498a7f234aeef768580524777d47ee"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/SignedSquareCarrier.lean",
+      "source_sha256": "2749e2b5cf168ccf65519d7d5945e702784371e531ef6f1b248b2747bc985223",
+      "port": "reference-port",
+      "submission_sha256": "e40f8922259a1b1b37149f08ce612545ffb40f0805de7d9ed6e372b6d6634df6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/SignedSquareSchur.lean",
+      "source_sha256": "fc4af7b53e7ee692764051ce7b4f17e31f4676d048dd432d5fa806c2f0576862",
+      "port": "reference-port",
+      "submission_sha256": "1bdc59e9c348f22ec91264e19206fabcdc1d0e6c112364f36049893e4931e854"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/StrictSubcritical.lean",
+      "source_sha256": "c6a3ae18701e93e5ff9daa6e33a53d016644019c3c8e5d69faa26a68d79d8dd9",
+      "port": "reference-port",
+      "submission_sha256": "56e2882caf5280d994a1c164f94e1833d5e66e84ffee00633dc10f5563bf7b1e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/TwoSided.lean",
+      "source_sha256": "30c609525fc84d60228bdecd1384c6056f8256ae5ae6d4c5cccb6ce7c1fa6020",
+      "port": "reference-port",
+      "submission_sha256": "c98c86beaba58172b23c6985852a2d6f62cfbe18d5dad4126be83be87ba93b18"
+    },
+    {
+      "path": "MeyerGeneralProblem/Carrier/UniformDensity.lean",
+      "source_sha256": "780e1cf0dc38444f7a1ed91aa23d67efebeb1e5263374fa6509375132a7df93e",
+      "port": "reference-port",
+      "submission_sha256": "6b0a01b7babe0110e43dee92cf505d4b7dd35eb8994e223c6f520e25b15c8876"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/AtomicOnCarrier.lean",
+      "source_sha256": "9efe4e79cf8f16ccb3d73a118d0a2873704ca7647f2ae16543b4e6df0fa2c6f8",
+      "port": "reference-port",
+      "submission_sha256": "84aa8467431d1304fc937314ecdd76953f1a6ac13760878ba58d2a281d9999e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/BaseFiveMotifGeometry.lean",
+      "source_sha256": "5a583df22edc2c0f9b86beecac76da0f665af19a19860689ac91d61d407c8706",
+      "port": "reference-port",
+      "submission_sha256": "efa20f4da694300c9790a79eb9300dc83da44e0d29fbf4e6e27126d6176046e0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/CarrierInclusion.lean",
+      "source_sha256": "fee9665ad8c08833157383a6950dce9c6c36a01caadc69c15524f80d85c83d4a",
+      "port": "module-port",
+      "submission_sha256": "e1999578a6f11eb54d2562014f2356f91532fe80a8cce06602f666cd9771dc3e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/CarrierUnion.lean",
+      "source_sha256": "0574d4030edd6fc7e137939ecc11e93a8da3ab752de934ba7d5233230f8a92e8",
+      "port": "module-port",
+      "submission_sha256": "51516fe05909a3e202d994ac32717d93b78d7f784f780e3cac75a2c9c0cf2030"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/ClosedSubmoduleAnnihilator.lean",
+      "source_sha256": "db5d7051efae4ee5b244844d2428d623782e1e3fc0c2a875d2d5db33187ed038",
+      "port": "reference-port",
+      "submission_sha256": "b07dd9d1557240aeac58f5964587c8990d21686a7c2fe7b779d7f5852cd2f6f1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/CombScaling.lean",
+      "source_sha256": "836f7d4aebe6c9de14d26bd33d2a0e536a5958885607d6fda44f69bdb72a6e3f",
+      "port": "reference-port",
+      "submission_sha256": "c5f2639157255820a6fcae0c80d6d0154b63e25d94ec225c7fb72a552f77658b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/CompactSchwartzDensity.lean",
+      "source_sha256": "2619b7e8ef8737e48e3f8e6613ddfd2aaffe0cf149286a688700978588e60116",
+      "port": "reference-port",
+      "submission_sha256": "6ea0da7d000f986f2aa7db35910c8a29d07b17437febc3844031c18d85dc2702"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/CompactSmoothDivision.lean",
+      "source_sha256": "887124f26b6e3ba8b65d54fe834af5b8ff39c00b53eb5dccf9ba78bfb3ac3ba3",
+      "port": "reference-port",
+      "submission_sha256": "502270c6bb5b393d515d71fbb1537cabe3a8ca3e7b84e36a10b16dd48045638c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/ConvolvedMotifCoefficients.lean",
+      "source_sha256": "ce6168738e532d359b6766b43c5f4facba347d14e771e41c94d65699ed451033",
+      "port": "reference-port",
+      "submission_sha256": "521fa52b08b065f2bab937f2b8e58f5481540faa5cec677a6eac0fc787060bff"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/DampedAtomic.lean",
+      "source_sha256": "d9c311716fc0dd9a70c01e7d04e4da6a3a3e4632f1515982dd7ed91b3f150288",
+      "port": "module-port",
+      "submission_sha256": "f7dab743e4995a362c0b400ba6c92faf69e0e68fc8738401aabfc4baad45da55"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/DisjointAtomicIndependence.lean",
+      "source_sha256": "9a8e4687e4f1017d4b4e04105d23bcb577db23ea85ed5a4851c69b9621f12d30",
+      "port": "module-port",
+      "submission_sha256": "3883d492bc3e9a47d2292f2b1b9184d429b067103dd6bdb017434a46779c8d7f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/DisjointAtomicSeries.lean",
+      "source_sha256": "d4378c99624e2884581bc33ad6d5813ce63e0795eef33e52bb5b0322ad05e0b8",
+      "port": "module-port",
+      "submission_sha256": "ea5c9ff1260ea514e92b929c74eafca4862f5af4b69bc452e040a3e620b6b319"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/EscapingCombCarriers.lean",
+      "source_sha256": "e77244e1b112119bc0279b70dc0dfb5ca8615b976eaa96eabbd8b75f69db3235",
+      "port": "reference-port",
+      "submission_sha256": "dea03b43f29f054534d5b275778bfca6740831586fdc3a974713ff8f2c39b869"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/FiniteAnnihilator.lean",
+      "source_sha256": "246c1be03c3177a80aee31f3f081a2a70b58bad445f36903f7f023ca89b14451",
+      "port": "module-port",
+      "submission_sha256": "9c96e832b2c3206bf0cfaf68b6c7edb347e6b508f84f7b3753344dbe498ddbc7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/FiniteCombConvolution.lean",
+      "source_sha256": "38575bf1a72ac8eb5575a1c77ca8d62fb4270597904f7a8726df0c1f3ac31a03",
+      "port": "reference-port",
+      "submission_sha256": "c8ed654eaef88bb1ed0a7963f0bd2f96c9ddb3727c987227443f3224782f71be"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/FiniteCombConvolutionSupport.lean",
+      "source_sha256": "7c00c669d7f5bb73436bc3a593388a3069000c5f2dd25176a73e57dd84662540",
+      "port": "reference-port",
+      "submission_sha256": "1658e5e4e81c9909808d98e82d7bceda4bbd4d53e6d7f112f4583399106bcb29"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/FiniteConvolutionCoefficients.lean",
+      "source_sha256": "02732eec7db6f0fe11cc0bf3cbf9a73e5c33bb7664c5b331bcb9d0d9cf3d1f5a",
+      "port": "module-port",
+      "submission_sha256": "2192ac2807520f36c3bca2795d235e412a1ae75f94999fb68ac37cbc56dd5751"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/FiniteFourierMotif.lean",
+      "source_sha256": "d61ec3932b220d681f00971d291500793be2ac68a7592cbab3d682ad29f1c97e",
+      "port": "reference-port",
+      "submission_sha256": "015035e624893a11313eaa65464f498ebb183d9e95332e74a3958acdf4c8d74b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/FourthOrderHoleVector.lean",
+      "source_sha256": "24cfe9fa439fa3efe69d2518bf607d9d0e00918922da3493a9f3180f1ed0ae32",
+      "port": "reference-port",
+      "submission_sha256": "49f9cb45c871c64d20f24cbb2523e56ac73bdba3d59718b0def9ce5365fb0bbf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/IntegerComb.lean",
+      "source_sha256": "31230bdef60fd20e47e0aec30356bc21485d8c910098ff0d6faf0d4c8b6f2113",
+      "port": "reference-port",
+      "submission_sha256": "66fa7ba66ca948203f53b377050708efaa13e37b7b9ef20ec68b2106bd0be6fa"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/IrrationalCombCosets.lean",
+      "source_sha256": "1602edf64afcbfea1cad21e3bc9d18a90af0fa841ed29673d1d659ae542ceb44",
+      "port": "reference-port",
+      "submission_sha256": "aa00b54579ee95fcb93f460893271052d90082933ee1d8c11dc846c975afa00d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/LiteralAtomicSourceRecovery.lean",
+      "source_sha256": "eef96ddd87655074ec2bfabe2f363dcc8faaea1d630c3905985e14a04d49f0c7",
+      "port": "module-port",
+      "submission_sha256": "f16dfc5cb7e1a936c6f10470c53195050ebe6386c7100731171685c881885922"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/MeyerSpace.lean",
+      "source_sha256": "7a8ed7731a1a09e45885675dda0cae20209e3316258f5acc7e03de9f430dc393",
+      "port": "module-port",
+      "submission_sha256": "147539c7795e3d81d47110ab6e94ddcf85f4dff3e8218320a2fc37a46694717c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/ModuleAtomicAnnihilation.lean",
+      "source_sha256": "1809b4bb006d4877f72f5f0ab7941a60cc6f646c5a7a741e4065b00ebef24442",
+      "port": "module-port",
+      "submission_sha256": "e66f0d9840ab194f692e3f2735cf5e6a7070c4f7efdec5ce51640c08489a3759"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalDualIsolationVariation.lean",
+      "source_sha256": "2be560becb09f2ac8c86f99279f1c608617af22aa6e96a790d262e6fabf27f31",
+      "port": "module-port",
+      "submission_sha256": "224c650d80121b1bfa11852fa0e56c67636f62523941d368b7879ea7ea202fee"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalDualWeightedVariationRecovery.lean",
+      "source_sha256": "76f19895098ab2f505f2eb0d350e745038f5f8e5b903a6a1aac31f7894544811",
+      "port": "module-port",
+      "submission_sha256": "c54f12ec16db2a7eb53482a1a1778a727a361c407649de039d18ff7077713518"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalIsolationC0Tests.lean",
+      "source_sha256": "ee5d52d2febe5f870f8a470dc3d46ab46612e4da06e7d7cff9e468ead161d91b",
+      "port": "module-port",
+      "submission_sha256": "2f6c998d5c0ecaf7c7123495e34fe02ab78c805c0b9a6d3d9856c1f5c8bc63d0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalShrinkingFourierTest.lean",
+      "source_sha256": "141c751373b3e01c134db547c922b0af971b97c89ffcddb39d7467f8f7d4cbe7",
+      "port": "module-port",
+      "submission_sha256": "de7e70af2d23df76cd38a2bf95bdadbb86a544b8b6b158e0f691d1cd5ba9910a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalStrongEvaluation.lean",
+      "source_sha256": "223705719b45c7b90c8f7739f2ee74ec6f4cd4bd79e4d97a25c8d31e4d51d30f",
+      "port": "module-port",
+      "submission_sha256": "01accea7f3196b901fd52ca651b097c69e4b3c6ad6eea0d3da325e8323806d8f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalStrongFourierSquare.lean",
+      "source_sha256": "0e95666b9ee3ba79bbd406a05491e7c845ba29762e6fefff3d36622dd28c253e",
+      "port": "module-port",
+      "submission_sha256": "491ce4ce57c910151caf8134261508c12fd40dc936bbd1ae4d033193bcbc5408"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalStrongUnitBallCompactness.lean",
+      "source_sha256": "73ec66fc46a3bef3d120924e4c0c9b83cc5b1136ed90241c1f2f3c4226f43522",
+      "port": "module-port",
+      "submission_sha256": "42596ce6825e4c68b14349f1cd4ceb485b8ab02fffc7bd457cc73cea418fba8e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalStrongWeightedDualPair.lean",
+      "source_sha256": "6ac381ad5dd0aebde0e1b362cb6f2a214eadbde50abc79bc1f25b707350034fa",
+      "port": "module-port",
+      "submission_sha256": "508e8872cb56f2d98f40fea2833a22b67d9b544a8086af66ac9250f32cf4ab58"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWeightedAtomicDual.lean",
+      "source_sha256": "b53c84190bd67d75babc569c497cf9026cd4f31ba47e0e8d142f6e4d2074abd8",
+      "port": "module-port",
+      "submission_sha256": "0e245a48f54bef2814b7a045e7a8feefd6b8e03ff6a7b962d90b4b00d1cd054f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWeightedAtomicRestriction.lean",
+      "source_sha256": "c09d5927392c62c067f103dbbf14f6cff9a9c3c4e6f36c0a29513dad998c1985",
+      "port": "module-port",
+      "submission_sha256": "756da27377ce68278ed8de94bcc624b199223fd2743fa54a6d2e43d515c11bdf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWeightedDualCarrierConstraints.lean",
+      "source_sha256": "e38aab908c02727c6e746dd9260c2837a809c4b1e8ed127f927a8f0ef3cbc6bc",
+      "port": "module-port",
+      "submission_sha256": "fbc3219cb5413d1f22fa86677e8886424c016eea9023d07243433d1227e26b3f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWeightedDualDistribution.lean",
+      "source_sha256": "d32c24b7e502dba581ca8ef42cf2360f4d3f3567ba2bb3a63a2029346111c216",
+      "port": "module-port",
+      "submission_sha256": "21a2b58fb90e0642ae2dd0b0c756fad25655c2d76c61de82449794f34b1732cf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWeightedDualWindowConstraints.lean",
+      "source_sha256": "f241375e2f75117dbf503086a83ee95dfced5a04091cb2c87b1ed1db61baf712",
+      "port": "module-port",
+      "submission_sha256": "cfb71aaee3fbeacc05c2ffbf03ef59ea748253bf6e3da67728f5fe7b36ccdccb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWeightedSchwartzC0.lean",
+      "source_sha256": "33390c303e9b58f76b0f446a99b65603ce54e10cc8be208a16d5dcf1275fd4a8",
+      "port": "module-port",
+      "submission_sha256": "28bda8cdde490c53c1f026a587d94cc14b12a1448403304f7da10f2bd6e32252"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWindowC0Approximation.lean",
+      "source_sha256": "f04baaa81ad2a6f318742a1f3de8d84e3716315decbec233123ee8b2a05922b7",
+      "port": "module-port",
+      "submission_sha256": "a28f8268fa5ad6cac290196c4af1f7e67b47eb47e0cc01673c59aed65be066ca"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWindowDualIntersection.lean",
+      "source_sha256": "da329b46cd82b4490aebcf3880cba3ec8b6f9427b22cca6d374af1b3019853ae",
+      "port": "module-port",
+      "submission_sha256": "3aba64f296dfa3538d28dba8169d65901ef1ef85af4dc42eaf4bcee0927e5b18"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/OriginalWindowResidualBounds.lean",
+      "source_sha256": "71c3babb3003f3afdd7188407e5d57495422104a1dc29849e9b9d7f2a2944acb",
+      "port": "module-port",
+      "submission_sha256": "29f2d63c7e2f7223cc1eb6786645042e91637b63af8c2c204b2a6ffa4e5a5617"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/PeriodicCombResidues.lean",
+      "source_sha256": "c649a8f354e0f94c437998900aa7500cc4a8a01b6d6a2b68389b30d5d47243f2",
+      "port": "reference-port",
+      "submission_sha256": "8953a90193bd3ad8cdaa000f3db097157765e3f2ed048523a0344930882800c5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/PeriodicFourierHoleBlock.lean",
+      "source_sha256": "098ee5efd8d8d1ae6e828e79c40b4ddf50c04d1c34223bd40e7ca7a3b70f3f96",
+      "port": "reference-port",
+      "submission_sha256": "744265e3e3d643b15ebf5aa7dd1b08ce304ca7daf2671030c497e21cf3b80586"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/PeriodicIntegerComb.lean",
+      "source_sha256": "1cd33c7979184b78df664fe2d9cade8cc3b5c051aa9e0735ed6cc7f96e053e76",
+      "port": "reference-port",
+      "submission_sha256": "047af1c5bdd13fa678bc855670e6831e2349f829f85afd91014aafb9a0796018"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/ReflectionSupportRecovery.lean",
+      "source_sha256": "41b7545431c941561c49ab9af479a55d6c2c2392ba4903cc878052fb6e67f8d1",
+      "port": "module-port",
+      "submission_sha256": "1b38291b1edb7ec82e49dca75f3d6c54ec75f0802c4bea153ada3873ab4924a9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/ResidueLatticeComb.lean",
+      "source_sha256": "8d3e4d5d026c7d63e554feca9109a0a5fe9cfed4d0658b668b7fbc552f3cf28c",
+      "port": "reference-port",
+      "submission_sha256": "bfe36724314050f94f9cb5175d92cc65f7a62e4d11c0199cfe87d2cd1d64c969"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/RestrictedAtomicRows.lean",
+      "source_sha256": "eaa88b999d263cb7907a858cd2e2cd952dd73c68659455e65ef59019dd0de8a4",
+      "port": "module-port",
+      "submission_sha256": "009fb0c214d82c9a913c848954e455d0f121d326a56f9c4a47df24fd13653646"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SchwartzDefect.lean",
+      "source_sha256": "074831913c8640b40a897a5660bbeb0569406f7fefd93fd761c262c6ec145f46",
+      "port": "module-port",
+      "submission_sha256": "99c24fe037aed984ef0e0f454dbc5aa7985545b339450bed35e621102895de03"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SchwartzDividedDifferenceBounds.lean",
+      "source_sha256": "58618aa1e85c119ae61759ba97723600a458ddb0b20cec8355bd79a9c9455eb3",
+      "port": "reference-port",
+      "submission_sha256": "81979363d0c0c2491be9725be5d5a4a5ba824cfd535c4f1bc3d1612e5c82a9f8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SchwartzVanishing.lean",
+      "source_sha256": "db4369a1f50f2f1b5d0c46338112a1e244c9844f471b308fddc753f0fd07ad5a",
+      "port": "reference-port",
+      "submission_sha256": "a322587c18c3d6222dcd8bd904544cc0d04712382b7612d41365ab3c440dcd67"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/ShiftedIntegerComb.lean",
+      "source_sha256": "29e5cceb3138ea1df79a782f74e4a7f12c20e1a5112691e58bf325f53becbe2f",
+      "port": "reference-port",
+      "submission_sha256": "fe5c2de360c909458a12d9248a7e60f360d772b1b6247d3df0cf9fd8f00b2c3f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SimpleFiniteAnnihilatorRecovery.lean",
+      "source_sha256": "5f02d5c26f76520af339511ec94a3413dc29c9345116f52a66a00eaacad6fc8d",
+      "port": "module-port",
+      "submission_sha256": "83e96274ad607e8e4497a4d705fe7ecd337a2a5b3849c4086f986e353176d1d3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SingletonModuleCoset.lean",
+      "source_sha256": "4c4accbb5ebc0acc3375400f793c804b711521a0a867447eda4a73da71fed4e5",
+      "port": "module-port",
+      "submission_sha256": "8c3894de098478f26683bcc7d39059f20f25d3cd3288c0d90939d409579bb3de"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SquareCyclicFourier.lean",
+      "source_sha256": "5132664adf24ef621e77b8329d79722d750c28f71f172db7d4fe363d433c61d9",
+      "port": "reference-port",
+      "submission_sha256": "9929d0b54c9bbf9fea3ce8ab4950ff736aaa51b14ee70f70d7e6f53f5668414a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SquarePeriodicComb.lean",
+      "source_sha256": "40cca2269d58c8046b6f431bd15126076b04fe1c28ef3fcd0f2dbb1758bc9f9c",
+      "port": "reference-port",
+      "submission_sha256": "6b8db669dbbc9d6c722210a3898445ce1b14faec4c6fb6d2a3acf6b8c10b300f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/SquarePeriodicCombSupport.lean",
+      "source_sha256": "58b7a0b5c5d8990218f69c1541e5e44b03b0bb3dcee519d62ed3c7f8ed9bb3ba",
+      "port": "reference-port",
+      "submission_sha256": "1d74bb7e57d318b94a883f1ad1485c674d0d3369b0e0f0291a83563be6d3e6c4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/StrongCoefficientGrowth.lean",
+      "source_sha256": "3d89b9cd6d97d895f32c5f4dc99c19180992c7a2968a3b35f204ba6600d51f2f",
+      "port": "module-port",
+      "submission_sha256": "f65d3400131bc607ae016a890543b77f1172552245449e9faa4be2cceee1b961"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/StrongDilation.lean",
+      "source_sha256": "a72e97867e394ae52dbadbd83b3d93016acbe80bf829353b5d30ee245287743f",
+      "port": "module-port",
+      "submission_sha256": "8dd0d93ab7236ca1bae0e7b4adabb31c4107842a10be84d9b30bd4cae5aed5cb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/StrongFiniteOperations.lean",
+      "source_sha256": "40a285afb5ce063541bd1ce0bd569c9bd831625e6bbb0d03d19ce093c7ab9102",
+      "port": "module-port",
+      "submission_sha256": "d39ba4404ee925c2c8e25eac42f5c04fd1d562996876a5852ad97a995176d383"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/StrongFiniteSymbolProducts.lean",
+      "source_sha256": "17dad0952b5a2bbd0903a7386d64f26db5c622f90af8a297c33eb81f236c5aa3",
+      "port": "module-port",
+      "submission_sha256": "335a0bbca541dfaeff184cdd28053861e4ac8d36ab43d13e4c2e6b01571c7c32"
+    },
+    {
+      "path": "MeyerGeneralProblem/Distribution/WeightedAtomic.lean",
+      "source_sha256": "5e773df7b965b8ea1c19bfb23e505783140bfb022f96dd7ceed99357fbedf23a",
+      "port": "module-port",
+      "submission_sha256": "d5104d08c352b3ef8074a822b92766934d1c576bd73909a70a3f4e97b680c5c1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Endpoint/Certificates.lean",
+      "source_sha256": "f863809c5c7d5de5c121993865aa267b23205dc2457f9aaf8270b170fda11fb6",
+      "port": "module-port",
+      "submission_sha256": "278e96b3048a85cee86524661b82cd15671f35657054faa14d8a42813a8185a3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Endpoint/ExponentialSqueeze.lean",
+      "source_sha256": "1ecf3cff1bc030e0a68d33b42846cc5d9ecbdae9540a75a10f4a69ce02b9343e",
+      "port": "reference-port",
+      "submission_sha256": "3f7093e226192aa01062878b608cb3d9367558768d0c5f05172edce23f4dbeaf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Endpoint/IntrinsicFixedOrder.lean",
+      "source_sha256": "52c247fcae87ce3fad80787f3c0e2a368c332dc6bc07a53c89e180ad50c82d58",
+      "port": "reference-port",
+      "submission_sha256": "ec7fc59f414d4a27b469b1015e4231d576fd34843662ec68ea59605b3b5e293b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Endpoint/LayerMonotonicity.lean",
+      "source_sha256": "04b95a89c59dfde4bb394f6825311c3e96fb1040b72a0fc632afc64e08cdf7a3",
+      "port": "reference-port",
+      "submission_sha256": "47f8a6183ef233ec9e43bee042bd1ffbc7ab26ae4e8d3bedcf709e4973d13ae1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Endpoint/ReducedCross.lean",
+      "source_sha256": "c749eb0f4db91174c3e4143b17198f85e9eb18864ce0b25df21bb42144cc27ba",
+      "port": "reference-port",
+      "submission_sha256": "ab16807ea5972c9f655f328bc9f370f177269554b452a3b851b7dd1632e5468d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Endpoint/WhitenedRange.lean",
+      "source_sha256": "073b2ca7f07b4f87aa7529110693c17423e0b970fbfd83e8332c4af3c7a195a5",
+      "port": "reference-port",
+      "submission_sha256": "deba958879cfd2961142e1a2e0eaad27c71dce45e05fdbd9a33c0b60db6f9a19"
+    },
+    {
+      "path": "MeyerGeneralProblem/FourierNormalization.lean",
+      "source_sha256": "bc0858dd12e0efe57572a568ce16d0acea25d60abd95f854422689d463569a1b",
+      "port": "reference-port",
+      "submission_sha256": "f03c16dcd8696ef81c07981892e24a3061f60af1451fa7f89ba665f0c709df01"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/ClosedRange.lean",
+      "source_sha256": "a99a8ee7b13a35e168b877cc559c9f08f35d1fc1c6f9480eaf28b3b558ea9164",
+      "port": "reference-port",
+      "submission_sha256": "1f4df138bd79f16345d8c7cc8e16bbf10e0b23ffc09e0eb676fd14b8531b90ab"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/CoefficientModel.lean",
+      "source_sha256": "5ccc5d6454ddd379dfd0f3060f9d3e42ea2d1c75384b98c0a4de8e252b68c4d7",
+      "port": "reference-port",
+      "submission_sha256": "57a95b5f594fc735062dbd82fcabe84beff1e1f504cd70b461d2037f5c26b45f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/CompactPositivePerturbation.lean",
+      "source_sha256": "a18cc96d52fce63d440f830cac3b7442da617b913b5af945a16b78f7cc1544e0",
+      "port": "reference-port",
+      "submission_sha256": "b8b7612e38a7a3a2931d8f4a8da16d6bc93ca15afd5f2cbbe0b3a576066ea2f0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/RationalDensity.lean",
+      "source_sha256": "12eead563c53f62cd486978788ed897dc0a9e121ab3b9d8e6b3284f063b680a5",
+      "port": "reference-port",
+      "submission_sha256": "ec72f37a7200342db757ad2dba357c1111b0261f1f433ee5024ef1b972114cf3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/UniversalDecay.lean",
+      "source_sha256": "f91b3e8dfa76b441e98f5a1dd539d627033a23402d99518322d1def503f5c404",
+      "port": "reference-port",
+      "submission_sha256": "e4a4a36ba4be18da0aba4d1f0b053ec8e4cb1b731dd14cfdceda702bd0ac0244"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/UniversalKernel.lean",
+      "source_sha256": "3fdd11919ebb39fe973a73223ffc6238ac7a9e2d9ef6479091aab3f8f81be524",
+      "port": "reference-port",
+      "submission_sha256": "9e1aa86647697aaf886bfe376d7719049966ef475ff8f25f01ac22df9fbc2b7a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/UniversalOperator.lean",
+      "source_sha256": "e5e4955115a17f19e022bc9c85a1b3fc9766904c64c342a37b370c2e3939a0b9",
+      "port": "reference-port",
+      "submission_sha256": "3ad96b72c0d5636c5f6b16dc204f9734c1d6722ef5a52c0938ee1bd2da05bab5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Gram/Whitening.lean",
+      "source_sha256": "246c6185767f97895aebb635641ea7375bfc86a2373ca1fb9ed070d948c4689b",
+      "port": "reference-port",
+      "submission_sha256": "b83d2b70caf7c44aaeb88fa72940c269ef6b06c5e6be9d08dc527d5f6ab7f963"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/CutoffNorm.lean",
+      "source_sha256": "bada360ff91629f5d06d18a309af29532fed016e267796ee603a87dbb2a60e85",
+      "port": "reference-port",
+      "submission_sha256": "afebd87dc392e7f869aa89a87f3cb74a538e1069f9387faebd2e97cd8b060816"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/DistributionCoherence.lean",
+      "source_sha256": "107ee4e8bae16e78dd9b6d29bc8b70caea9c9f7776de16bad9ac7f7b4791cf31",
+      "port": "reference-port",
+      "submission_sha256": "d9d18bf36cc6ca876b6281a58c09b923e7203eb0976617fa010f2bc1bb86ae2e"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/Exhaustion.lean",
+      "source_sha256": "0faba5ca06af4c8d44943aa393fa7fef5b6eb9e15ae4ea837e8c45ef2fcb5e22",
+      "port": "reference-port",
+      "submission_sha256": "256c3c759d43b6f712942d85d52c7dbbf8b9dab2916d5539ebe51b822f596b0d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/Functions.lean",
+      "source_sha256": "1eeebcd56a1740dd98525d7bfcf877e630de0ba6694747dbc3b7ab03fb3388f7",
+      "port": "reference-port",
+      "submission_sha256": "51fb2befaeaaf788e3ea029265d5a17b252e4e4be0eade5b4ef3d4a1aaea9af0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/GeneralPointMassSupport.lean",
+      "source_sha256": "e42c65f52003fb4ba06f629b6a2073368d49c403f4651eec9d7fabb9740726e7",
+      "port": "reference-port",
+      "submission_sha256": "2943a90be8ec3a91807f1a2c50f1fcefc79ce46f74710eb12e98047e0a9ad568"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/MehlerBounds.lean",
+      "source_sha256": "ada89e1e1cebc9fd40b9b68e851484ad3ff7a961f0d5c112eda052451962ab69",
+      "port": "reference-port",
+      "submission_sha256": "976300dfdec26860b1eda5d840e92298fe16f62e4f5f872992c052767c0b071d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/MehlerFormula.lean",
+      "source_sha256": "7862c60aa05cb04c919a49211dcf6d317a3438ac2754f97900ec98f1bdbf7fd9",
+      "port": "reference-port",
+      "submission_sha256": "21a3ba9741a8055efd9765ebaffb69c4a5b16a8cd6e77e38211dc13729391cee"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/MehlerKernel.lean",
+      "source_sha256": "e781553afa3ac50c26e96cd467a8efc6debf07c3c1646d18c437bb488a73ac7b",
+      "port": "reference-port",
+      "submission_sha256": "cb0825e44d844a8624d7e33d329b4b834408d13cd588672a00fc934047219ab3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/MehlerOffDiagonal.lean",
+      "source_sha256": "b4c665f480c25c298d9699573211a2cf9135ecd3fb5dd3a2c3bd5bd92fc15bb4",
+      "port": "reference-port",
+      "submission_sha256": "425a4b0d6a472cea87c505b12c5b38ab46e1a03f2541860fac951c4ea1a821b9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/Orthonormal.lean",
+      "source_sha256": "b33894e4b9788648c8d69f1839030257871987723efef808f99498f0168143a3",
+      "port": "reference-port",
+      "submission_sha256": "7ffe1f62c9095ccb18cbb1d1dcaceb3c0f1e64b6f205a151d4f0f3ec16dab87c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/Scale.lean",
+      "source_sha256": "a80974d07bc4ebda5d4d348b69ecd545a453eb9e549d93352e2808b6abb0303e",
+      "port": "reference-port",
+      "submission_sha256": "67e28fa18cca63725130221ba3cb2de9ad51187306b39fed87556aaf7e1069eb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hermite/ScaleEmbedding.lean",
+      "source_sha256": "152213626f81090b44d42ac53487765df33783317d2c9376c39a9bcf91139b8c",
+      "port": "reference-port",
+      "submission_sha256": "5dd8a66d3d6f8e33108064b7554b97ba3bf7d427886f57c9a27b15fef76b958f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hilbert/CompactModels.lean",
+      "source_sha256": "05f5f240ede869cf1d06884bb6db42098991eaf9510e1858e1f641874bb25428",
+      "port": "reference-port",
+      "submission_sha256": "8117c6ea5f758e4ec5d23cadcb86f1e94fe13db887d63222e7a5b625219e048d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hilbert/CompactPerturbation.lean",
+      "source_sha256": "fcb1b67991dacedb7e4be4860d459cee29fc2257b650d2cad926b6ab48858158",
+      "port": "reference-port",
+      "submission_sha256": "e9c53cbba3b41ed8e0aa45c48012b6ccc66a1ab9b2757a1bed31526d08699956"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hilbert/FriedrichsAngle.lean",
+      "source_sha256": "47e82b0b657001dbb6ff9a5ff1557cd780b436bc5f981f4eefa53cd001f21f60",
+      "port": "reference-port",
+      "submission_sha256": "de39713404d18541499bd8c1b1d3698b4c418d46959e78302a392062eb56ec66"
+    },
+    {
+      "path": "MeyerGeneralProblem/Hilbert/TwoProjections.lean",
+      "source_sha256": "bc1d5848b995b8d5656231a21046845c393fbf56328b9970d9fa3a49433b9019",
+      "port": "reference-port",
+      "submission_sha256": "9b259416412617a5f2cbcafadec403ca91a9dc593c4c5e17dba610622517fe66"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/BlockOverlap.lean",
+      "source_sha256": "0773a004de738f32c3af7a9ce401d5f89f3e51f340cbab63b077309f93311fb3",
+      "port": "reference-port",
+      "submission_sha256": "1768fd00f2f12e73e6bbbf2295eb7fb06344c836265517695cc649c4656620c4"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/BlockPartition.lean",
+      "source_sha256": "90f0455f5dd1dfbb7e5dc6e60e1516d48f39943ab8f6d655164af3da4224be4a",
+      "port": "reference-port",
+      "submission_sha256": "f237fc2d9cc7e8ee3de9cc142d7817807e32c4518fb68027bb5a36376150c4ab"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/ConfluentUnisolvence.lean",
+      "source_sha256": "f47cf77fc5a97894ed7eb6bf61084771925121287a1c3c71870567930e208d82",
+      "port": "reference-port",
+      "submission_sha256": "69fa796490cb4c423d5384acbfd351dd128f3fbc9b665db3500a91fdb9dd062d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/DividedDifference.lean",
+      "source_sha256": "088457c3dd4721b20c9433485ae1f93ed649b9e502ecd4e0c6ea02ce6d1da095",
+      "port": "reference-port",
+      "submission_sha256": "a59f3bc0e4f87a7af85d2c4ff50e9b8a0a98275d1ed2c37eba689831aed32a9c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/GroupedSubdata.lean",
+      "source_sha256": "f5166998705f4021003b128f04760489103b16d6fb167746023dfeacd9efd821",
+      "port": "reference-port",
+      "submission_sha256": "20960f4f2c6641a38cdd1c691ea01061a8f1c572a161d1ddaa5edd04117e3f53"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/HermiteGenocchi.lean",
+      "source_sha256": "07f58bfb5dcfbdef9f72cb3dc4f050e5b8038b3e760f249aba5531b1c6c05a14",
+      "port": "reference-port",
+      "submission_sha256": "2fdc7d86fe80cc7a72b002041fe2483c98b919b324048aaf199823f301794d94"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/HermiteGenocchiHigher.lean",
+      "source_sha256": "f9753649fb0c9aeff27e2196c7a6380ebb1e8f7d997da6f95eee06c613fe4ae2",
+      "port": "reference-port",
+      "submission_sha256": "3447eb422af91c457baa2fcf6e000236f8a0a8192fa55f13f7a8eb6c902f944c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/Leibniz.lean",
+      "source_sha256": "632d95023e7f7b423df4662e696239a449ce3eecf4bc9fcaa4a19f09bccdb68f",
+      "port": "reference-port",
+      "submission_sha256": "ffb0ec8e5a5c5b16f9f1c7de772d6e7ceffa05e8ae4f2b7d2c3da0adf2913e6a"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/MovingDividedDifferences.lean",
+      "source_sha256": "fcca6b5815afcd81ad0b6cd809ff5b8015b15384ddde2a8f83654cbfdf21bebf",
+      "port": "reference-port",
+      "submission_sha256": "7ad0e8f4f12c861d49caf3dbad3af6e778c9f59a6b3eef22be784ba0f74116f8"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/NewtonPolynomial.lean",
+      "source_sha256": "3b6e852c41a1f2459abb5c348362db32d624d501c5dadd542effe95a156b1411",
+      "port": "reference-port",
+      "submission_sha256": "0aa962064d5787193d161fcc89bb7e47841f5f13ff3ba68ec5acf75f97a91e1b"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/QuadraticDerivativeBounds.lean",
+      "source_sha256": "25d3918495e96aeeacb7a8836d250d2a6b26c55f1fdc705a8ff9a06da3d47708",
+      "port": "reference-port",
+      "submission_sha256": "69b9ff3e6915567f2dad1cc2002b19d0cf619e9c0bf80ee933a5819a63ab46e6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Interpolation/UniformNewtonBounds.lean",
+      "source_sha256": "7d08a3e4148817ee69f51e0038a83e1dfd73f5be6b0f8aea4cecfb9b203c82c2",
+      "port": "reference-port",
+      "submission_sha256": "e4a1a0d1e73722112fbce5644b783d1ad361a8357031a5e665d7eec19463bcee"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BernsteinGrowth.lean",
+      "source_sha256": "ac1fcab977974ef6dd191af2d8ea8c3c7f08847997fba07bf4ceac8ea6004bc1",
+      "port": "reference-port",
+      "submission_sha256": "2a3e5193a97d14c8490f5d52056797cf9bb742309dff7f99caba4ca39e0236f1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BernsteinJensen.lean",
+      "source_sha256": "843a2a98b6fb05258e5e4cc491d5ac56c6fb22826c2596d4d4712cd8dcba9526",
+      "port": "reference-port",
+      "submission_sha256": "e8733ff287bd336e4c22c0ca47af3483bca80560c386709361b50216d014de47"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BernsteinLocalizer.lean",
+      "source_sha256": "71ede9c3178f88f0b36fdfbfd71803e5bfb12d03bb2048622b9c8ffeb5226c9f",
+      "port": "reference-port",
+      "submission_sha256": "364e58c4c25c554c37cc4b3d73a989c861532f5683becf241a094c002c0849e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BernsteinNormalFamily.lean",
+      "source_sha256": "aea256fc472d6d844fc14907416d7cef562ca8dd89207fb6698b2b50b11007fe",
+      "port": "reference-port",
+      "submission_sha256": "611df766cc27e137ea078b064484b2f4a42dac8912508b5f5c3ae9f2dd1232cf"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BernsteinZeroDensity.lean",
+      "source_sha256": "2d358b82f0105179aa577b4838b614af59860e336a95ae7bc1d3744c01c09b7a",
+      "port": "reference-port",
+      "submission_sha256": "9d708a6376f154d1516d6ac35c9e53c63dce0cd1a65c9846d5bce651ea112c21"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BeurlingBiorthogonal.lean",
+      "source_sha256": "4866cacfc83019651453af859fe391234a953bdd7874de54b7e74e9a768a32ca",
+      "port": "reference-port",
+      "submission_sha256": "1c5b7ff580a6cf6586b38415e65d68059e412976009ed226fc9206a23560b4ad"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BeurlingFiniteKernels.lean",
+      "source_sha256": "5ff7fbc5fa580b7cfba2eef81e710b1a4ec52bd28fdf4cc7f7fb35b2ffea52e0",
+      "port": "reference-port",
+      "submission_sha256": "b9c4867e067a1d780152f1ee0451776357b83a037fa07deae128bf6690e89c94"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BeurlingInterpolation.lean",
+      "source_sha256": "6a560c816ae82cac7101cbafafc06faeb5ebe90840abf1b2c355a3673f8b0f66",
+      "port": "reference-port",
+      "submission_sha256": "cb32b8977b1291ea26f5ed4d5b255b583dcef0843849466e4f4ffa8426ad4481"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BeurlingSmoothing.lean",
+      "source_sha256": "a6851b91bf155ca3eaf042ee70f2797bd2987ffd44de41d8b7919529616b53e8",
+      "port": "reference-port",
+      "submission_sha256": "75be268c86c7756903f2c029361ad36b72a6b7d9c1486a15d79c48f3e23a35d6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/BeurlingWindow.lean",
+      "source_sha256": "0f448f47b6bf68dfe8b7c8f59f5638ff1d774171c4d269fe090f2c856e66da33",
+      "port": "reference-port",
+      "submission_sha256": "08cc62b6cc0673fcc2226b4db11984dd24c43b6450a02bbab879454ab61373a9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/ClassicalFourierSobolev.lean",
+      "source_sha256": "b3ef10ec5e87010d92c4c628726ccacfac7f0d1c27d077b7ba918a6bf40fcef5",
+      "port": "reference-port",
+      "submission_sha256": "91a997240c853b9953aba23eb669d64da453472a9f2cff2f1e86fe6592d80bd5"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/CosineIngham.lean",
+      "source_sha256": "c3c129781effa8fd118ceb041823ee89c944dc1ec3e471cc08e4307b4f9893ec",
+      "port": "reference-port",
+      "submission_sha256": "6e6a7512d34f207811ffa9c9c774ccc2284348713aeef1fb63ad70761185b81f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/FourierBandCutoff.lean",
+      "source_sha256": "7e62185022923763f14813dcc470b0f52be14f156bd4c02337b316e5c85b7c78",
+      "port": "reference-port",
+      "submission_sha256": "a62046d1e0c4dd7a732ab6cacd228da06ecf2ebed6cd1a1e5bee17acb32104fd"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/FourierRectangle.lean",
+      "source_sha256": "bdce4226d84df795f290a46489068afd5d251a0e4ab4b997d4c7b24492a8cdb7",
+      "port": "reference-port",
+      "submission_sha256": "1e08f06897847d39c12e22e10b6dfce4520a8c46a0221188da815e7c06b1e894"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedBernsteinSampling.lean",
+      "source_sha256": "6716949620897fd7a3144a2eb77b5457576a9e8b525f0158e5c80e4f9576de65",
+      "port": "reference-port",
+      "submission_sha256": "35689661b8fcbd59d1758bd70c3134d621b3f7913686235051fa552e326ddbd6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedBernsteinUniqueness.lean",
+      "source_sha256": "00374aced86d9bd4a46d46039b0b21d56f842d989f1757a38751cd188a3ce91b",
+      "port": "reference-port",
+      "submission_sha256": "d1a3eb5662d9ad557d1293357a7e33fe9a366e27b9b3364891bea2a38fe4bea0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedBiorthogonal.lean",
+      "source_sha256": "84adbc9c71d0f7ee035168786f2f7530c30433162a7d6675196466b2cc9282f6",
+      "port": "reference-port",
+      "submission_sha256": "0d7da9e7e4cb1cdddeeaa2628ae9cf3c192d821649daa7379d9ee4f79f562cc9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedClusterInsertion.lean",
+      "source_sha256": "7b7b6e1199b7209e469f8973b7fcd41ecb92f505aaaca6878ac101d769413e67",
+      "port": "reference-port",
+      "submission_sha256": "d70582d02a79efc66b79d98963983ee58ac74d6421015facc3660997bd207e6d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedExponential.lean",
+      "source_sha256": "9f8600738990c1b5627121cc634384042e45581a17dd8eb1e33edb722e778745",
+      "port": "reference-port",
+      "submission_sha256": "25cb70fe7dd9fedc694c9b2738ee17ca28b686d4936bdb67fa250755d07c10f3"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedExponentialUpper.lean",
+      "source_sha256": "dcceba98879c139375e365260a354cd23a9a839e731efb0b1d3101c54da433b1",
+      "port": "reference-port",
+      "submission_sha256": "ae251ad8527f23c10a6af2667fc0c3aef5cf38724da8d9c1d8010a79c1074c6c"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedFiniteFloor.lean",
+      "source_sha256": "0f258e7b4f8d5f0243948c8ce603abac8c856bcff0a7d618d7fae7543595ae17",
+      "port": "reference-port",
+      "submission_sha256": "c06ba011e44607fed189423fe4ff50cb9da453d7eeb4deda0bc485630c547235"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedHarauxInsertion.lean",
+      "source_sha256": "0ba24f4d7d59e16df2809c09667c0c7796d6ad03ef2b93d09946165879e99003",
+      "port": "reference-port",
+      "submission_sha256": "639a499d3eec401e10c47cdf077e295d07f6e1244d74e023c1d99eb5e4970f37"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedHarauxRemoval.lean",
+      "source_sha256": "5bb33fde33d454ace7cf827d940558b2bad3836f7d6a90113a10df22f1abf2df",
+      "port": "reference-port",
+      "submission_sha256": "d5a6cdbf75689f9ae2536cb95bfaa6da56b27b26af3a03eff401d8e7f1ebdca0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedLocalFloor.lean",
+      "source_sha256": "52138fab5aee6b3598503940b933c906d0029309801dec5cf97bf07c4124e6be",
+      "port": "reference-port",
+      "submission_sha256": "f94978565ad7bac031ff982363c807f35f5609c24a9561fd12b33da0259cee4d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedPaleyWiener.lean",
+      "source_sha256": "a1192a19deb3fa93189bf4483731c0e083a4b1b400132f3861a71792f5423931",
+      "port": "reference-port",
+      "submission_sha256": "d9d8b40711389d474591f864b9904af0dc9d6a0212617754fbcf3964273b6090"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedPaleyWienerSampling.lean",
+      "source_sha256": "558fe349aaa3109070c2ff5dc919b7acb94cd58b1f8767d66dfd25469cd93d2f",
+      "port": "reference-port",
+      "submission_sha256": "f32dc38cbbe65a285884ceb724e9102371f999376d3d231991a04a5a00b07e23"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedSobolevSpectralGap.lean",
+      "source_sha256": "8b4c5511faa54965401fe7c2cc3a899df36ab59cfd517055250ff6ab283cab6e",
+      "port": "reference-port",
+      "submission_sha256": "20c8224e2275789442de3f3efd1d97d176f9ec3fc6d6ef778d6099f7b1e33e9f"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/GroupedSpectralGap.lean",
+      "source_sha256": "857f9daf0fecacc2db55a890c125f380c34b1f5c1dc1e86afcb1c01cc7837048",
+      "port": "reference-port",
+      "submission_sha256": "25dcfcbbdda9047a2fbccbc30bac49fdbe60ae8644ed189a982be7c75f9c4222"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/Ingham.lean",
+      "source_sha256": "b9f1c2bd4a8db7e5c3d0fd8ee266182af3be2f2ecab2725938aab620631fb2bc",
+      "port": "reference-port",
+      "submission_sha256": "8437fed3a2e590b9782499286d896858f67423ab3ce0ba9af8ef76d382d65fb0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphDerivative.lean",
+      "source_sha256": "d803752c280d15652970f7e42871de2004dbca92874157392e62f34f360f1a9d",
+      "port": "reference-port",
+      "submission_sha256": "b0c5929ed94cb2cc9374f1cdd01e9c4f4337d7040cb268b5c303c4b494e1d38d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphMixedCompletion.lean",
+      "source_sha256": "35192509cc41ba6bc539b27dea7d5aa3ac2dcc273214ebe78d48fb42dec4dd37",
+      "port": "reference-port",
+      "submission_sha256": "2920f809b5ddabf46c8c317a624af6b9f84b214be8e1853960c541a2ed465ffb"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphOscillator.lean",
+      "source_sha256": "3703a107650916e5d8752f3bf64c80d09b36bcb2fbb47e40d60141356bf1169a",
+      "port": "reference-port",
+      "submission_sha256": "6259fbb2ddef6fe52dbcf5ef06d0b7dca4d43169b77536ff74620a34d5fd1821"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphRepresentative.lean",
+      "source_sha256": "18f98c62f099889cfd06d0c2acbbca40bd9623670d69fc9c86257748bbbc0225",
+      "port": "reference-port",
+      "submission_sha256": "7fee54f5e69c9aa93096947f4642fc4af10e218c8d08fa42387aea69f96c38c6"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphSchwartzComparison.lean",
+      "source_sha256": "6ff41da72281c19a8388b53de3a021c3ef72dae5fef19ddce738f347997119ac",
+      "port": "reference-port",
+      "submission_sha256": "de846e1f035db55754a71afa5bcecbcc6f094542d8b4d04533a2f98598fa3714"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphSpace.lean",
+      "source_sha256": "41f0b00fb16eb3c43137a668d7052e6b35adc50ece53a5487b61fcb4bc8a866d",
+      "port": "reference-port",
+      "submission_sha256": "967d1b58c0a486a0b2e78c891512aca00bdfbb73b4cabdf9bcbe305ee049dfb9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphSpaceFourier.lean",
+      "source_sha256": "8230c1d019882c5231c971124f5e930419029956d0d8a7bdde9b31154945c3ed",
+      "port": "reference-port",
+      "submission_sha256": "e986c91bab9c5579d86747e4f6b53dafc58c3a1454b13b90ebee83de91fef2ee"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSGraphSpaceSmooth.lean",
+      "source_sha256": "ccfacef1d12077f56bda12fadba7696e2535f0aa771ebec89ed305447bac6c55",
+      "port": "reference-port",
+      "submission_sha256": "e45dfaa7713ae3577d7932b4324a21919ea0b1f497522a63c884b7586067fe76"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/KNSMixedWeightedSchwartz.lean",
+      "source_sha256": "0b6ab9adc4a49f1e9739cf139ffde7ae4f5ee8a8f213c2cdea6d2e082d347bfe",
+      "port": "reference-port",
+      "submission_sha256": "b7571a87109afc74aec15037a51df5f160e6583f7c646a47a1d3791ca11dd4a0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/LocalSobolev.lean",
+      "source_sha256": "d3416d3aaf8d24e0fd9bae9eefbae5cc749bd635c8729659b1c466c3062defe9",
+      "port": "reference-port",
+      "submission_sha256": "831b8056ef19f89ad6df69289c879d799288ad52bf30f5ca5dd7a23e62f74816"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/PaleyWienerRepresentative.lean",
+      "source_sha256": "d17c55492fad9541ad31a8473b8e09ac66b4638538889beefbf9c5e9bc983bfe",
+      "port": "reference-port",
+      "submission_sha256": "5990296f45bda1c1d6d9a87821278a088c56620c727209374422f6e33f1c5a06"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/PositiveSeparation.lean",
+      "source_sha256": "f2f909f6ae89a6e0b24de409e0033106108637d6a32e0acf0e2615062645bc34",
+      "port": "reference-port",
+      "submission_sha256": "ef8d5ff032dceaee784fa597191728b690e71627b3c5fae6d2e2548e7c66a335"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/PositiveSeparationDecay.lean",
+      "source_sha256": "bb88b1454234ff208ff4579c10c57abdacdd1e96bb6f9d91d244ee6270aed3b3",
+      "port": "module-port",
+      "submission_sha256": "bcf75f1a4e674ed2ffbe03ce694f42b4a1b46d828730df8a8a60537cfd9fe17d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/SeparatedDecay.lean",
+      "source_sha256": "3676d56478e49291c5de337ff730ab26b28b76748f250cda1127862ff4d90e2b",
+      "port": "reference-port",
+      "submission_sha256": "703b3cb8d2fbef941a3ad6e87786532716975f2d1d3735d34b0d9f14b365345d"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/SignedSquareChartRemainder.lean",
+      "source_sha256": "62b32dc295d7a267bfde112e394be83c5bfa7dcc6fa55ba44d8cfed0ddd4794b",
+      "port": "reference-port",
+      "submission_sha256": "16b89b496fd82602cdb1d02e72e9ffc33b728a778d4dca4d1a7b30d57cd44167"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/SignedSquareCutoffTransfer.lean",
+      "source_sha256": "e961a60975d7f9c6c058a3c359a56292d1cd72556538359f13f4c52539ce05a2",
+      "port": "reference-port",
+      "submission_sha256": "c06a52866371964a9b3d9e638d4d5476c5d34a77efc5bd52f0a8a3cd243c1b60"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/SignedSquareSobolevDomain.lean",
+      "source_sha256": "0d07a84b306a2b6914f1b3641e9b524fabe220af36414f3aa70a7d2ab598498f",
+      "port": "reference-port",
+      "submission_sha256": "130e77e7dc606eb6a5e65fe16ecc9b0b71c60f41b3ec237b4c129da2bb769477"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/SignedSquareWeightedChart.lean",
+      "source_sha256": "35f4b6c049953fa9f4d9ed895e392e48fc32cb1554a767edafda849a2522c805",
+      "port": "reference-port",
+      "submission_sha256": "6f8618b429bfa93a381d6dbfcda06fdfd41ab324bd3ff5f072613f1b256432f7"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/UpperLargeSieve.lean",
+      "source_sha256": "ff22ef751480753b5ceb3dff7a3a203edcf9d06331eea90d294623e60cd83c7c",
+      "port": "reference-port",
+      "submission_sha256": "45f69b2bebd44d5de0326fd85975b74296b425e8f3c053f311931bbac0a3b8a0"
+    },
+    {
+      "path": "MeyerGeneralProblem/Sampling/WindowChoice.lean",
+      "source_sha256": "aed15879a6cc7bd997cf122f1cf9accc1dd787e57e141c0ef6fc03caad85b978",
+      "port": "reference-port",
+      "submission_sha256": "09193a3e60944f5f814605242f42ef3b8dae42a1ec2f5e4144024e5e542c8612"
+    },
+    {
+      "path": "MeyerGeneralProblem/Trace/GroupedTrace.lean",
+      "source_sha256": "80488a2c3f6c198a2204d609981e9478267eca3045fc5f0c55d3dcfb0f5f449d",
+      "port": "reference-port",
+      "submission_sha256": "47ac5813705acbd0da72da3bd0e84dd2faa571429b8dff55f0227fe28fee97e9"
+    },
+    {
+      "path": "MeyerGeneralProblem/Trace/Presentation.lean",
+      "source_sha256": "0d3a6e9af72717ddc5789ae5a5d7234d8225cdf614440631c7efd66d7d5040b6",
+      "port": "reference-port",
+      "submission_sha256": "7a94697a152f09caed3711acfdbad8937f0dc487f397f01fe855b0b461dd3852"
+    },
+    {
+      "path": "MeyerGeneralProblem/Trace/System.lean",
+      "source_sha256": "3a674a305144c3742272a098082b59712f75475fd64eb928c97bdf578c1f6b6b",
+      "port": "reference-port",
+      "submission_sha256": "d15831e7e977b7ba777b02b17eca37a10eccac424bd78e723b0c98c24b1750d4"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/CompatibleFiniteRows.lean",
+      "source_sha256": "2795e79e19e4f35dc8ba5254a9fd73e850ff3280663fb4c8a7c4dee795a9d73f",
+      "port": "module-port",
+      "submission_sha256": "bd71b6a946bfc952a85bf8de81c10712982174dded6731069d35bfa9249a1044"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/FiniteRows.lean",
+      "source_sha256": "4d04bc5526d86bacd709d5232376ae5d4590623c43bc1cc595eeab7ce8f0b0ad",
+      "port": "module-port",
+      "submission_sha256": "87d088701bfc5c30e88729abfadb36e87410c792c6994439fa58852aaca7f311"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/IndependentRowRank.lean",
+      "source_sha256": "51f7f38e250c46ee767f81ed7849fba336e7c1ca883c2a1498d6189c18d2a284",
+      "port": "module-port",
+      "submission_sha256": "efedc8fcd7c7902461e56502e18688557c04b567461c693b52138d020498d494"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/OriginalDegreeElimination.lean",
+      "source_sha256": "2bfbedf58ee0beabd32a84b28e7e7ad842091378a01bc65a4d815cac0d8b2fe1",
+      "port": "module-port",
+      "submission_sha256": "f8932750eb0f98feb524bfb8b7340aee1782babf50b7a0f85219937e5d483da6"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/OriginalDeterminantLine.lean",
+      "source_sha256": "fa59b6b4b5dea5b3364d239689e5637a73033a667125fc54708ae04ad691a15d",
+      "port": "module-port",
+      "submission_sha256": "6823d27197a95978141efc9ca2293b16344ba4de0e0d53fbf27e7de9bfae1a84"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/OriginalFreeKernelBasis.lean",
+      "source_sha256": "f8c9e542c0095f68cce9fa2bb86a2feec10e0aa74a7d134aefaa132de6e3a6b6",
+      "port": "module-port",
+      "submission_sha256": "c8e2e24bdcc6aced933a3fb1b7216e820dc8850ecfb9a84e7a609b9404a4d1e1"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/OriginalRowBasisSelection.lean",
+      "source_sha256": "8681dbf58f24c6d5cb27d2e34ca85c53d0ba11fe502eb4472679e51a781044f0",
+      "port": "module-port",
+      "submission_sha256": "13853fd03923574fecf93776b3e632d4578a6414dca41b84ffd3684c1ad63c1f"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/OriginalTriangularProjection.lean",
+      "source_sha256": "15b9fd54b8dfff6f8d4f83984c79941ee16080889594e415a7782c32ab28bd13",
+      "port": "module-port",
+      "submission_sha256": "8e45fa845bb77396b40babeeeec0dd1d2ba472c2ee855f32f9335fe906f22ffe"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/SpecifiedCornerBasis.lean",
+      "source_sha256": "c62740ad44f578d2b6638c8cb5eb92caf7a25d9029b2515dfacae079b57ecaa3",
+      "port": "module-port",
+      "submission_sha256": "e6f03d7c47c0723b252247219743f0279bbbc50986df0322f91be1ff6659564a"
+    },
+    {
+      "path": "MeyerGeneralProblem/UniformDiscrete/TriangularOriginalRows.lean",
+      "source_sha256": "cb13fea44eeed0d95b9530e6187c9f3d00066642ab6c7ee1433bd45466657684",
+      "port": "module-port",
+      "submission_sha256": "c0cfe75eacce04c61d5178b3e567b2f84f7b4c21dc8cca89e09c4b1aa4df5fda"
+    }
+  ],
+  "reference_repository": "https://github.com/balancedscorpion/countably-infinite-dimension-meyer-spaces",
+  "reference_commit": "0de61962a757b5e930dfe59dd94d191ae1f87922"
+}
