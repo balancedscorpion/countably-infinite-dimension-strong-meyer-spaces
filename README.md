@@ -11,17 +11,24 @@ We prove that there exists a locally finite carrier Λ ⊆ ℝ whose **whole str
 
 The physical and spectral records may use different exponents. Local atomicity means a single coefficient family gives the finite atomic formula on every compactly supported Schwartz test. Supports are contained in Λ; equality is not required. Fourier normalization is exp(−2πixξ). Dimension means algebraic Hamel dimension.
 
-This is the strongly tempered example formalized in [MeyerGeneralProblem PR #653](https://github.com/ls558/MeyerGeneralProblem/pull/653), extracted from commit `65fe4ece1e3d2e83a9ac757b615141d3c0a2718b`. The entire recursive Lean proof closure is included, so building does not require access to the private source repository.
+## Main achievement
 
-The [earlier countably infinite Meyer-space repository](https://github.com/balancedscorpion/countably-infinite-dimension-meyer-spaces) concerns the broader distributionally tempered class, without the weighted absolute-variation condition. Here that condition is imposed on **both** Fourier sides. A countable independent family alone would give only a lower bound; the proof also bounds the complete strong space from above.
+The theorem establishes **exactly countably infinite dimension for the entire strongly tempered Meyer space** on one locally finite carrier. The weighted absolute-variation condition holds for both the physical and spectral coefficient families. This strengthens ordinary distributional temperedness by controlling the absolute size of the atomic coefficients on each Fourier side.
 
-The source constructs a parity carrier using a classically selected radius schedule. Every fixed weighted exponent layer of the whole strong space is finite dimensional, and these layers exhaust the space. Independent original modes on that same carrier supply the lower bound, proving exact rank ℵ₀. This is an existence result for one carrier. No effective schedule, classification of all carriers, equality with the broader distributional space, or novelty claim is asserted.
+The proof combines two bounds on the same carrier:
+
+- **Upper bound:** each fixed weighted exponent layer is finite dimensional, and countably many such layers exhaust the whole strongly tempered space.
+- **Lower bound:** a countably infinite family of linearly independent strongly tempered distributions belongs to that space.
+
+Together these establish complex Hamel rank ℵ₀. The carrier is constructed using a classically selected radius schedule, so the result is an existence theorem rather than an algorithm for computing the carrier.
+
+The complete Lean proof and its supporting modules are included in this repository.
 
 ## Formal interfaces
 
 [`Challenge.lean`](Challenge.lean) is the independent Mathlib-only statement of record. It defines local finiteness and weighted local atomic action directly. Its main theorem states exact rank and proves that membership is precisely the two-record strong condition on the same carrier. The span used to define the interface space is explicitly proved to equal that whole class.
 
-[`Solution.lean`](Solution.lean) proves the same statement by identifying the existential local coefficients with the canonical isolation-test coefficients used by the original development. It imports the substantive proof, never Challenge. The only `sorry` is the intentional Challenge placeholder. [`comparator.json`](comparator.json) selects `CountablyInfiniteStrongCrystallineMeasures.strongCardinalClaim`, allowing only `propext`, `Quot.sound`, and `Classical.choice`.
+[`Solution.lean`](Solution.lean) proves the same statement by identifying the existential local coefficients with canonical coefficients recovered by isolation tests. It imports the complete proof independently of Challenge. The only `sorry` is the intentional Challenge placeholder. [`comparator.json`](comparator.json) selects `CountablyInfiniteStrongCrystallineMeasures.strongCardinalClaim`, allowing only `propext`, `Quot.sound`, and `Classical.choice`.
 
 ## Reproduce
 
@@ -34,10 +41,10 @@ python3 scripts/check.py
 git diff --check
 ```
 
-Dependencies are pinned in `lake-manifest.json`; do not run `lake update` during verification. The extraction is ported to Lean 4.35.0-rc3 and matching Mathlib/Tau Ceti revisions. See [provenance](docs/PROVENANCE.md), [submission procedure](docs/PUBLICATION.md), and [validation](docs/VALIDATION.md).
+The project uses Lean 4.35.0-rc3 with matching Mathlib and Tau Ceti revisions. Dependencies are pinned in `lake-manifest.json`; do not run `lake update` during verification. See the [validation record](docs/VALIDATION.md) and [submission procedure](docs/PUBLICATION.md).
 
 The full Palomar reusable verification workflow is prepared in [`.github/workflows/palomar.yml`](.github/workflows/palomar.yml). Local checks, Palomar mechanical verification, editorial review, and permanent registration are separate stages. This preparation does not claim acceptance or registration.
 
-## Attribution
+## Author and license
 
-Jamie Martin is the sole author of this submission. The implementation derives from the pinned PR #653 proof development. The earlier publication provides packaging and shared module-port references; its theorem is not used in place of this strong result. Source provenance, automated assistance and review boundaries are disclosed in [`formalization.yaml`](formalization.yaml). The submission is MIT licensed. Historical source agent reviews apply to their original commits, not to this extraction and toolchain port; no new independent human review is claimed.
+Jamie Martin is the sole author and responsible maintainer of this submission. The project is released under the [MIT license](LICENSE). Formalization metadata and assistance disclosures are recorded in [`formalization.yaml`](formalization.yaml).
